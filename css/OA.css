@@ -1,0 +1,164 @@
+/*=============主题============================= */
+
+
+.primary{
+    color: #1E78E6
+}
+.bg_primary{
+    background: #1E78E6
+}
+
+
+*{
+    box-sizing: border-box;
+}
+.contianer{
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+.header{
+    box-sizing: border-box;
+    width:1200px;
+    /* height: 56px; */
+    margin:  0 auto;
+    padding: 0 40px;
+}
+.header::after{
+    content: "";
+    display: block; 
+    clear: both;
+}
+.header .logo_box{
+    width: 120px;
+    margin: 12px 0;
+    float: left;
+}
+.header .logo_box img{
+    width: 100%;
+}
+.menu_box{
+    height: 100%;
+    display: flex;
+    float: left;
+
+}
+.menu_box li{
+    height: 100%;
+    padding: 0 16px;
+    line-height: 57px;
+    font-size: 14px;
+    color:rgba(99,103,110,1);
+}
+.phone{
+    float: right;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.phone a{
+    display: inline-block;
+    width:83px;
+    height:28px;
+    border:1px solid rgba(30,120,230,1);
+    border-radius:14px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 28px;
+}
+.phone p{
+    font-weight:400;
+    height: 100%;
+    line-height: 57px;
+    margin-left: 30px;
+}
+.phone p i{
+    width: 23px;
+    height: 23px;
+    display:inline-block;
+    background: url(../images/OA/phone.png);
+    position: relative;
+    top: 5px;
+    margin-right: 7px;
+}
+
+/* =========header结束============== */
+
+.content{
+    width: 100%;
+    height: 550px;
+    background: url('../images/OA/bg.png') no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.content_title_box{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.content_title_box .content_title{
+    text-align: left;
+    display: inline-block;
+    width: 240px;
+    height: auto;
+    position: absolute;
+    top: 120px;
+    left: 160px;
+}
+.content_title_box .content_title h2{
+    font-size:42px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+}
+.content_title_box .content_title p{
+    font-size: 24px;
+    color: #fff;
+    margin: 40px 0;
+}
+.content_title_box .content_title a,.carousel_bg a{
+    display: inline-block;
+    width:159px;
+    height:46px;
+    border-radius:23px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* =============背景部分结束==================== */
+.carousel_bg{
+    width: 1200px;
+    background: url('../images/OA/carousel_bg.png');
+    background-size: 100% 100%;
+    height: 730px;
+    margin:  0 auto;
+    margin-top: 40px;
+    padding: 40px 70px 0px;
+    text-align: center;
+}
+.carousel_bg h2{
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.carousel_bg p{
+    font-size: 16px;
+    color:rgba(1,1,1,1);
+    font-weight: 300;
+    width: 640px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.carousel{
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 55px;
+}
