@@ -1,0 +1,333 @@
+.banner_box{
+    width: 100%;
+    min-width: 1200px;
+    height: 823px;
+    background: url('../images/index/banner底@2x.png') no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-bottom: 320px;
+}
+.banner{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.yuan{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: -25%;
+}
+.neiyuan{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.yuan  img{
+    width: 80%;
+}
+#zhongxin{
+    width: 163px;
+    height: 163px;
+    z-index: 10;
+    background: #fff;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13.5%;
+    margin-left: -12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#zhongxin img{
+    width: 77px;
+    height: 77px;
+}
+#yuan1{
+    width: 353px;
+    height: 504px;
+    position: absolute;
+    top: -45%;
+    right: -10%;
+}
+#yuan2{
+    width: 320px;
+    height: 449px;
+    position: absolute;
+    top: -36%;
+    left: 56px;
+}
+#yuan3{
+    width: 377px;
+    height: 263px;
+    position: absolute;
+    top: 0px;
+    left: 8px;
+}
+#yuan4{
+    width: 373px;
+    height: 231px;
+    position: absolute;
+    top: 50%;
+    left: 60px;
+}
+#yuan5{
+    width: 224px;
+    height: 320px;
+    position: absolute;
+    top: 50%;
+    left: 167px;
+}
+#yuan6{
+    width: 201px;
+    height: 278px;
+    position: absolute;
+    top: 50%;
+    left: 338px;
+}
+#yuan7{
+    width: 259px;
+    height: 184px;
+    position: absolute;
+    top: 50%;
+    left: 340px;
+}
+#yuan8{
+    width: 240px;
+    height: 171px;
+    position: absolute;
+    top: 18%;
+    left: 310px;
+}
+
+/*============================================进度条 */
+.progress_box{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+.index_title{
+    font-size:34px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(40,40,40,1);
+}
+.progress{
+    width: 100%;
+    margin-top: 90px;
+}
+.progress_title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress_title li a{
+    font-size:15px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(40,40,40,1);
+}
+.progress .progress_r{
+    width: 100%;
+    height: 44px;
+    background: url('../images/index/progress.png');
+    position: relative;
+    margin-top: 50px;
+}
+.fenduan{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.fenduan li{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.huankuai_btn{
+    width: 45px;
+    height: 45px;
+    background: url('../images/index/r.png');
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.huakuai{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 100%;
+}
+.baitiao{
+    width: 30%;
+    display: inline-block;
+    height: 1px;
+    background: url('../images/index/baitiao.png');
+    position: absolute;
+    top:50%;
+    left: 0;
+    margin-top: 1px;
+    z-index: 1;
+}
+
+/* ====================================展示 */
+.zhanshi_box,.fun_list_box,.project_box,.industry_box,.pattern_box{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 140px;
+}
+.zhanshi_cont{
+    font-size:18px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(40,40,40,1)
+}
+.zhanshi_dongxiao{
+    height: 555px;
+    border: 1px solid #ccc;
+}
+
+/* ===================================功能展示 */
+.fun_list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.fun_list .fun_item{
+    width: 240px;
+    text-align: left;
+    margin-right: 120px;
+    margin-top: 148px;
+}
+.fun_list .fun_item:nth-child(3n){
+    margin-right: 0;
+}
+.fun_item_t{
+    font-size:30px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(1,132,214,1);
+    margin-top: 45px;
+    margin-bottom: 30px;
+    white-space: nowrap;
+}
+.fun_item_c{
+    font-size:20px;
+    color:rgba(40,40,40,1);
+}
+
+/* ======================================= */
+.project_list{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 80px;
+}
+.project_item{
+    width:256px;
+    height: 285px;
+    margin-right: 8px;
+    background: url('../images/index/item1.png');
+    padding: 50px 60px;
+    text-align: left;
+}
+.project_item:nth-child(2n){
+    background: url('../images/index/item2.png')
+}
+.project_item h2,.project_item p{
+    font-family:Microsoft YaHei;
+    color:rgba(40,40,40,1);
+}
+.project_item h2{
+    font-size:24px;
+    font-weight:400;
+    line-height:24px;
+    margin-bottom: 27px;
+    white-space: nowrap;
+}
+.project_item p{
+    font-size:20px;
+    font-weight:300;
+    line-height: 25px;
+}
+/* ================================行业 */
+.industry{
+    width: 100%;
+    height: 560px;
+    position: relative;
+}
+.industry_img{
+    width: 100%;
+    height: 100%;
+}
+.industry_img img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.industry_btn{
+    width: 150px;
+    height: 100%;
+    position: absolute;
+    left: 0; 
+    top: 0;
+    background: url('../images/index/hangye.png');
+}
+.industry_btn>div{
+    font-size:24px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(40,40,40,1);
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s linear;
+}
+.industry_btn>div.btn_show{
+    width: 288px;
+    background: url('../images/index/hangye_bg.png') no-repeat;
+    position: relative;
+    left: -50%;
+    color: #0184D6;
+    font-size: 34px;
+    line-height: 190px;
+}
+.btn_show i{
+
+}
+
+/* ================================格局 */
+
+.pattern{
+    width: 100%;
+    padding: 0 24px;
+    height: 715px;
+    display: flex;
+    align-items: center
+}
+.pattern_left{
+    width: 552px;
+    height: 715px;
+    padding: 66px 130px 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pattern .shuxian{
+    display: block;
+    width: 2px;
+    height: 589px;
+    background: url('../images/index/geju_shuxian.png')
+}

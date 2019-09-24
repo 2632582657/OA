@@ -1,89 +1,7 @@
 /*=============主题============================= */
 
 
-.primary{
-    color: #1E78E6
-}
-.bg_primary{
-    background: #1E78E6
-}
 
-
-*{
-    box-sizing: border-box;
-}
-.contianer{
-    box-sizing: border-box;
-    width: 100%;
-    min-width: 1200px;
-    height: auto;
-    margin: 0 auto;
-    position: relative;
-}
-.header{
-    box-sizing: border-box;
-    width:1200px;
-    /* height: 56px; */
-    margin:  0 auto;
-    padding: 0 40px;
-}
-.header::after{
-    content: "";
-    display: block; 
-    clear: both;
-}
-.header .logo_box{
-    width: 120px;
-    margin: 12px 0;
-    float: left;
-}
-.header .logo_box img{
-    width: 100%;
-}
-.menu_box{
-    height: 100%;
-    display: flex;
-    float: left;
-
-}
-.menu_box li{
-    height: 100%;
-    padding: 0 16px;
-    line-height: 57px;
-    font-size: 14px;
-    color:rgba(99,103,110,1);
-}
-.phone{
-    float: right;
-    display: flex;
-    height: 100%;
-    align-items: center;
-}
-.phone a{
-    display: inline-block;
-    width:83px;
-    height:28px;
-    border:1px solid rgba(30,120,230,1);
-    border-radius:14px;
-    font-size: 14px;
-    text-align: center;
-    line-height: 28px;
-}
-.phone p{
-    font-weight:400;
-    height: 100%;
-    line-height: 57px;
-    margin-left: 30px;
-}
-.phone p i{
-    width: 23px;
-    height: 23px;
-    display:inline-block;
-    background: url(../images/OA/phone.png);
-    position: relative;
-    top: 5px;
-    margin-right: 7px;
-}
 
 /* =========header结束============== */
 
@@ -122,7 +40,7 @@
     color: #fff;
     margin: 40px 0;
 }
-.content_title_box .content_title a,.carousel_bg a{
+.tiyan_btn{
     display: inline-block;
     width:159px;
     height:46px;
@@ -162,3 +80,60 @@
     margin: 0 auto;
     margin-top: 55px;
 }
+.swiper-container {
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 55px;
+}  
+/* ================================================ */
+.OA_detail_container,.brand_container{
+    width: 100%;
+    height: auto;
+    min-width: 1200px;
+    margin: 0 auto;
+    margin-top: 200px;
+    overflow: hidden;
+}
+.OA_detail{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    background: url('../images/OA/radius.png') no-repeat 100% 0;
+    background-size: 80% 100%;
+    padding-top: 110px;
+    overflow: hidden;
+}
+.OA_card{
+    padding-right: 120px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+.OA_card_left{
+    width: 230px;
+    text-align: left;
+}
+.OA_card .OA_card_right img{
+    width: 542px;
+    height: 342px;
+}
+.OA_card .OA_card_left .OA_title{
+    font-size:28px;
+    font-weight: 400;
+    color: #000;
+}
+.OA_card .OA_card_left .OA_subtitle{
+    color:rgba(30,120,230,1);
+    font-size:18px;
+    font-weight:400;
+    margin:30px 0;
+}
+.OA_card .OA_card_left .OA_content{
+    font-size: 16px;
+    font-weight:300;
+    color:rgba(1,1,1,1);
+    line-height: 26px;
+}
+
+
