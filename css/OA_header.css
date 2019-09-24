@@ -50,6 +50,16 @@
     font-size: 14px;
     color:rgba(99,103,110,1);
     position: relative;
+   
+}
+.menu_box>li .blue_border{
+    transition: all .5s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background: url("../images/index/border.png")
 }
 .phone{
     float: right;
@@ -81,16 +91,19 @@
     position: relative;
     top: 5px;
     margin-right: 7px;
+    /* transform: scale(1.1) */
 }
 .hover_menu{
     width: 117px;
-    height: 177px;
+    /* height: 177px; */
     position: absolute;
     left: 0;
-    top: 60px;
-    background: url("../images/index/shoumebu.png");
-    padding: 13px 0 18px 29px;
+    top: 57px;
+    background: url("../images/index/shoumebu.png") ;
+    background-size: 100% 100%;
+    padding: 13px 0 18px 0;
     z-index: 10;
+    display: none;
 }
 .hover_menu>li{
     height: 28px;
@@ -100,4 +113,13 @@
     font-weight:bold;
     color:rgba(0,0,0,1);
     line-height: 28px;
+}
+.hover_menu>li>a{
+    margin-left: 29px;
+}
+.hover_menu>li.show{
+    background: #E5F0F7
+}
+.showmenu{
+    display: block !important;
 }

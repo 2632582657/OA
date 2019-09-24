@@ -2,7 +2,7 @@
     width: 100%;
     min-width: 1200px;
     height: 823px;
-    background: url('../images/index/banner底@2x.png') no-repeat;
+    background: url('../images/index/banner_di.jpg') no-repeat;
     background-size: 100% 100%;
     margin: 0 auto;
     margin-bottom: 320px;
@@ -19,6 +19,7 @@
     height: 50%;
     position: absolute;
     bottom: -25%;
+    border-radius: 100%
 }
 .neiyuan{
     width: 100%;
@@ -43,6 +44,9 @@
     justify-content: center;
     align-items: center;
 }
+.neiyuan > div{
+    transition: all .3s linear
+}
 #zhongxin img{
     width: 77px;
     height: 77px;
@@ -53,6 +57,7 @@
     position: absolute;
     top: -45%;
     right: -10%;
+    z-index: 1;
 }
 #yuan2{
     width: 320px;
@@ -60,6 +65,7 @@
     position: absolute;
     top: -36%;
     left: 56px;
+    z-index: 2;
 }
 #yuan3{
     width: 377px;
@@ -67,6 +73,7 @@
     position: absolute;
     top: 0px;
     left: 8px;
+    z-index: 3;
 }
 #yuan4{
     width: 373px;
@@ -74,6 +81,7 @@
     position: absolute;
     top: 50%;
     left: 60px;
+    z-index: 4;
 }
 #yuan5{
     width: 224px;
@@ -81,6 +89,7 @@
     position: absolute;
     top: 50%;
     left: 167px;
+    z-index: 5;
 }
 #yuan6{
     width: 201px;
@@ -88,6 +97,7 @@
     position: absolute;
     top: 50%;
     left: 338px;
+    z-index: 6;
 }
 #yuan7{
     width: 259px;
@@ -95,6 +105,7 @@
     position: absolute;
     top: 50%;
     left: 340px;
+    z-index: 7;
 }
 #yuan8{
     width: 240px;
@@ -102,6 +113,7 @@
     position: absolute;
     top: 18%;
     left: 310px;
+    z-index: 8;
 }
 
 /*============================================进度条 */
