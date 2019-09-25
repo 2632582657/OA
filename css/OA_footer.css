@@ -1,26 +1,55 @@
 /* ================================== */
+#footer{
+    width: 100%;
+    height: 1174px;
+}
 .brand_container{
     margin-top: 0;
 }
 .brand{
     width: 1200px;
-    padding: 0 140px;
     text-align: center;
     margin: 0 auto;
     
 }
 .brand_content{
-    height: 300px;
-    background: #fff;
-    margin-top: 0px;
-}
-.brand_content img{
+    height: 364px;
     width: 100%;
+    background: #fff;
+    margin-top: 95px;
+    display: flex;
+}
+.brand_content_img{
+    width: 50%;
     height: 100%;
+}
+.brand_content_img img{
+
+}
+.brand_content_detail{
+    width: 50%;
+    height: 100%;
+    padding: 45px 65px 0px;
+    text-align: left;
+}
+.brand_content_detail .f_c,.brand_content_detail .f_s{
+    line-height:31px;
+    font-size:19px;
+    font-weight:300;
+    color:rgba(53,54,59,1);
+}
+.brand_content_detail .f_t{
+    font-size:21px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+    line-height:31px;
+    margin-top: 50px;
+    margin-bottom: 16px;
 }
 .brand_btn{
     margin:0 20px;
-    padding: 0 60px;
+    margin-top: 60px;
     
 }
 .brand_btn  ul{
@@ -32,7 +61,7 @@
     width: 20%;
 }
 .brand_btn  ul li img{
-    width: 100%;
+    /* width: 100%; */
     cursor: pointer;
 }
 /* =================================== */

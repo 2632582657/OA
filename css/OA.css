@@ -8,8 +8,6 @@
 .content{
     width: 100%;
     height: 550px;
-    background: url('../images/OA/bg.png') no-repeat;
-    background-size: 100% 100%;
     margin: 0 auto;
 }
 .content_title_box{
@@ -27,18 +25,19 @@
     height: auto;
     position: absolute;
     top: 120px;
-    left: 160px;
 }
 .content_title_box .content_title h2{
     font-size:42px;
     font-family:Microsoft YaHei;
     font-weight:400;
     color:rgba(255,255,255,1);
+    white-space: nowrap;
 }
 .content_title_box .content_title p{
     font-size: 24px;
     color: #fff;
     margin: 40px 0;
+    white-space: nowrap;
 }
 .tiyan_btn{
     display: inline-block;
@@ -99,24 +98,29 @@
     width: 1200px;
     margin: 0 auto;
     height: 100%;
-    background: url('../images/OA/radius.png') no-repeat 100% 0;
-    background-size: 80% 100%;
-    padding-top: 110px;
+    padding-top: 100px;
     overflow: hidden;
+    margin-bottom: 80px;
 }
 .OA_card{
     padding-right: 120px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 110px;
+    /* margin-bottom: 110px; */
+    align-items: center;
+    height: 500px;
+}
+.OA_reverse{
+    flex-direction: row-reverse;
+    padding-right:0px !important;
+    padding-left: 120px !important;
 }
 .OA_card_left{
     width: 230px;
     text-align: left;
 }
 .OA_card .OA_card_right img{
-    width: 542px;
-    height: 342px;
+    
 }
 .OA_card .OA_card_left .OA_title{
     font-size:28px;

@@ -17,6 +17,11 @@
     margin: 0 auto;
     position: relative;
 }
+#header{
+    width:1200px;
+    min-width: 1200px;
+    height: 58px;
+}
 .header{
     box-sizing: border-box;
     width:1200px;
