@@ -16,6 +16,22 @@
     <script src="js/jquery-1.12.4.min.js"></script>
     <!-- <script src="js/swiper3.min.js"></script> -->
     <script src="js/global.js"></script>
+    <style>
+        .swiper-container {
+            height: 601px;
+            margin-bottom: 60px;
+        }
+
+        .swiper-wrapper {}
+
+        .swiper-wrapper .swiper-slide {
+            width: 391px;
+        }
+        .swiper-wrapper .swiper-slide img {
+            width: 391px;
+            height: 391px;
+        }
+    </style>
 </head>
 
 <body>
@@ -42,15 +58,11 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"><img src="images/CRM/CRM1.png" alt=""></div>
-                    <div class="swiper-slide"><img src="images/CRM/CRM2.png" alt="" ></div>
-                    <div class="swiper-slide"><img src="images/CRM/CRM3.png" alt="" ></div>
+                    <div class="swiper-slide"><img src="images/CRM/CRM2.png" alt=""></div>
+                    <div class="swiper-slide"><img src="images/CRM/CRM3.png" alt=""></div>
                 </div>
                 <!-- 如果需要分页器 -->
                 <div class="swiper-pagination"></div>
-
-                <!-- 如果需要导航按钮 -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
             </div>
             <h2 class="primary">打造全流程的客户管理体系</h2>
             <p>实现从线索到回款的全流程管理，让企业借助云创CRM管理客户关系、销售过程、营销活动
@@ -59,8 +71,7 @@
                 var mySwiper = new Swiper('.swiper-container', {
                     // direction: 'vertical', // 垂直切换选项
                     loop: true, // 循环模式选项
-                    autoplay: true,
-
+                    // autoplay: true,
                     // 如果需要分页器
                     pagination: {
                         el: '.swiper-pagination',
@@ -73,11 +84,15 @@
                         nextEl: '.swiper-button-next',
                         prevEl: '.swiper-button-prev',
                     },
+                    // slidesOffsetBefore : 100,
+                    slidesPerView: 2,
+                    centeredSlides: true,
                 })
             </script>
         </div>
         <div class="OA_detail_container">
-            <div class="OA_detail" style="background: url('./images/index/reserve.png') no-repeat 0% 0%;background-size: 80% 100%;">
+            <div class="OA_detail"
+                style="background: url('./images/index/reserve.png') no-repeat 0% 0%;background-size: 80% 100%;">
                 <div class="OA_card OA_reverse">
                     <div class="OA_card_left">
                         <img src="images/CRM/left1.png">
@@ -102,9 +117,9 @@
                         <h2 class="OA_title">销售线索</h2>
                         <p class="OA_subtitle">智能寻找有效率</p>
                         <p class="OA_content">
-                                自动化追踪线索发展进度，寻找并审
-    查线索，全程可追溯，提升销售效率
-                             </p>
+                            自动化追踪线索发展进度，寻找并审
+                            查线索，全程可追溯，提升销售效率
+                        </p>
                     </div>
 
                 </div>
@@ -114,7 +129,7 @@
                         <h2 class="OA_title">销售商机</h2>
                         <p class="OA_subtitle">有效跟踪推进快</p>
                         <p class="OA_content">自定义客户标签，有效追踪商机进展，
-                                推进快速结单，实现销售精细化管理 </p>
+                            推进快速结单，实现销售精细化管理 </p>
                     </div>
                     <div class="OA_card_right">
                         <img src="images/CRM/right3.png">
@@ -129,8 +144,8 @@
                         <h2 class="OA_title">快速跟进</h2>
                         <p class="OA_subtitle">客户服务有节奏</p>
                         <p class="OA_content">可设置工作流规则，快速响应来自
-                                客户的服务
-                                请求，流程自动化，更易把控销售节奏</p>
+                            客户的服务
+                            请求，流程自动化，更易把控销售节奏</p>
                     </div>
 
                 </div>
@@ -140,8 +155,8 @@
                         <h2 class="OA_title">订单管理</h2>
                         <p class="OA_subtitle">结单回款有保障</p>
                         <p class="OA_content">可灵活创建管理订单，追溯历史
-                                数据，确保产品交付和数据准确
-                                推进快速结单 </p>
+                            数据，确保产品交付和数据准确
+                            推进快速结单 </p>
                     </div>
                     <div>
                         <img src="images/CRM/right5.png">
