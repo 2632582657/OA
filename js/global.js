@@ -2,11 +2,13 @@ $(function () {
     //头部底部渲染
     $("#header").html(
         `<div class="logo_box">
-                <img src="./images/OA/logo.png">
+           <a href="index.html">
+           <img src="./images/OA/logo.png">
+           </a>
         </div>
         <ul class="menu_box">
             <li class="">
-                <a href="">首页</a>
+                <a href="index.html">首页</a>
                 <i class="blue_border"></i>
             </li>
             <li class="">
@@ -40,8 +42,8 @@ $(function () {
             </li>
         </ul>
         <div class="phone">
-            <a class="primary">免费试用</a>
-            <p class="primary"><i></i>400-645-6677</p>
+            <a>免费试用</a>
+            <p><i></i>400-645-6677</p>
         </div>`
     )
     $('#footer').html(
@@ -51,7 +53,7 @@ $(function () {
             <p>行业深耕，专业解决全流程、全周期办公需求，驱动企业数据化管理进程，实现高效自由的业务模式。</p>
             <div class="brand_content">
                 <div class="brand_content_img">
-                    <img src="./images/index/brand1.jpg" alt="">
+                    <img src="./images/index/brand1.png" alt="">
                 </div>
                 <div class="brand_content_detail">
                     <p class="f_c">
@@ -169,12 +171,12 @@ $(window).load(function () {
         $(this).toggleClass("show")
     })
     // ============================
-    var index=1
+    var index = 1
     $(".yuan_hover_box").mouseenter(function () {
         index++;
-        $(this).parent().css({ transform: "scale(1.1)",zIndex:index})
+        $(this).parent().css({ transform: "scale(1.1)", zIndex: index })
     }).mouseleave(function () {
-        $(this).parent().css({ transform: "scale(1)",zIndex:0})
+        $(this).parent().css({ transform: "scale(1)", zIndex: 0 })
     })
 
 
@@ -322,7 +324,7 @@ $(window).load(function () {
             }
         ]
         var i = $(this).index() + 1
-        $('.brand_content_img').children('img').attr('src', './images/index/brand' + i + '.jpg')
+        $('.brand_content_img').children('img').attr('src', './images/index/brand' + i + '.png')
         $(".f_c").html(title[$(this).index()].fc)
         $(".f_t").html(title[$(this).index()].ft)
         $(".f_s").html(title[$(this).index()].fs)
@@ -333,38 +335,38 @@ $(window).load(function () {
 
 
 
-//动画
-    $(function(){
-        var now=document.documentElement.scrollTop || document.body.scrollTop;
-        if(now>=0){
-          $('#leftout1').addClass('animated fadeInLeft');
-          $('#rightout1').addClass('animated fadeInRight dalay-5s');
-        }
-        window.addEventListener("scroll",function(e){
-          var scrollTop=document.documentElement.scrollTop || document.body.scrollTop;
-          console.log(scrollTop)
-          if(scrollTop>900){
+    //动画
+    $(function () {
+        var now = document.documentElement.scrollTop || document.body.scrollTop;
+        if (now >= 0) {
             $('#leftout1').addClass('animated fadeInLeft');
             $('#rightout1').addClass('animated fadeInRight dalay-5s');
-          }
-          if(scrollTop>1500){
-            $('#leftout2').addClass('animated fadeInLeft');
-            $('#rightout2').addClass('animated fadeInRight');
-          }
-          if(scrollTop>2000){
-            $('#leftout3').addClass('animated fadeInLeft');
-            $('#rightout3').addClass('animated fadeInRight');
-          }
-          if(scrollTop>2500){
-            $('#leftout4').addClass('animated fadeInLeft');
-            $('#rightout4').addClass('animated fadeInRight');
-          }
-          if(scrollTop>3000){
-            $('#leftout5').addClass('animated fadeInLeft');
-            $('#rightout5').addClass('animated fadeInRight');
-          }
+        }
+        window.addEventListener("scroll", function (e) {
+            var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            console.log(scrollTop)
+            if (scrollTop > 900) {
+                $('#leftout1').addClass('animated fadeInLeft');
+                $('#rightout1').addClass('animated fadeInRight dalay-5s');
+            }
+            if (scrollTop > 1500) {
+                $('#leftout2').addClass('animated fadeInLeft');
+                $('#rightout2').addClass('animated fadeInRight');
+            }
+            if (scrollTop > 2000) {
+                $('#leftout3').addClass('animated fadeInLeft');
+                $('#rightout3').addClass('animated fadeInRight');
+            }
+            if (scrollTop > 2500) {
+                $('#leftout4').addClass('animated fadeInLeft');
+                $('#rightout4').addClass('animated fadeInRight');
+            }
+            if (scrollTop > 3000) {
+                $('#leftout5').addClass('animated fadeInLeft');
+                $('#rightout5').addClass('animated fadeInRight');
+            }
         });
-      });
+    });
 
 
 

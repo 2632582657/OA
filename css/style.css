@@ -14,6 +14,6 @@
 .swiper-container-horizontal>.swiper-pagination-bullets.solution-pagination{bottom:15px}
 .solution-pagination .swiper-pagination-bullet{width:24px;height:4px;border-radius:100px;overflow:hidden;background:#dfe1f1;border:none;cursor:pointer;content:'';display:inline-block;box-sizing:border-box;opacity:1;vertical-align:middle}
 .solution-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active{background:#f66f6a;box-sizing:border-box}
-.swiper-slide-active+div{
+/* .swiper-slide-active+div{
 	transform: scale(0.8)
-}
+} */

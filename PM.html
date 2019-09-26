@@ -22,13 +22,9 @@
     <style>
         #featured-area {
             height: 600px;
-            width: 100%;
+            width: 1300px;
             margin: 0 auto 0;
             position: relative;
-            /* left: -140px; */
-            display: flex;
-            justify-content: center;
-            overflow: hidden;
         }
 
         .roundabout-holder {
@@ -40,8 +36,8 @@
 
         .roundabout-moveable-item {
             font-size: 12px !important;
-            height: 389px !important;
-            width: 646px !important;
+            /* height: 389px !important;
+            width: 646px !important; */
             cursor: pointer;
             padding: 5px;
             border: 1px solid #aaa;
@@ -96,6 +92,13 @@
         .roundabout li {
             margin: 0
         }
+        .img_div{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 154px;
+        }
     </style>
 
 </head>
@@ -116,12 +119,12 @@
                 </div>
             </div>
         </div>
-        <div class="carousel_bg">
-            <h2 class="primary">持续优化的协同项目管理</h2>
-            <p>转为企业协作办公场景而设计，专注提升办公和管理效率，为企业节约管理成本，进而提升企业核心竞争力。</p>
-            <a href="#" class="bg_primary tiyan_btn" style="color: #fff">免费体验</a>
 
+        <div style="margin: 0 auto;text-align:center">
             <div class="img_div">
+                <h2 class="primary" style="width: 640px;font-size: 28px;font-weight: 400">持续优化的协同项目管理</h2>
+                <p style="width: 640px;margin-top: 20px;margin-bottom: 60px;font-size: 16px">转为企业协作办公场景而设计，专注提升办公和管理效率，为企业节约管理成本，进而提升企业核心竞争力。</p>
+                <a href="#" class="bg_primary tiyan_btn" style="color: #fff">免费体验</a>
                 <div class="" id="featured-area">
                     <ul>
                         <li>
@@ -136,24 +139,26 @@
                     </ul>
                 </div>
             </div>
-
-            <h2 class="primary">每一个项目更简单高效</h2>
-            <p>实现沟通、计划、分析、立项、文档等全面管理，项目过程可视化、流程化、自动化、满足个性化得、优化的项目管理需求。</p>
-            <script>
-                $(document).ready(function () {
-                    $('#featured-area ul').roundabout({
-                        autoplay: true,
-                        autoplayDuration: 4000,
-                        easing: 'easeOutInCirc',
-                        duration: 600,
-                        enableDrag: true
+            <div class="carousel_bg" style="background: #fff;height:auto">
+                <h2 class="primary">每一个项目更简单高效</h2>
+                <p>实现沟通、计划、分析、立项、文档等全面管理，项目过程可视化、流程化、自动化、满足个性化得、优化的项目管理需求。</p>
+                <script>
+                    $(document).ready(function () {
+                        $('#featured-area ul').roundabout({
+                            autoplay: true,
+                            autoplayDuration: 4000,
+                            easing: 'easeOutInCirc',
+                            duration: 600,
+                            enableDrag: true
+                        });
                     });
-                });
-            </script>
+                </script>
+            </div>
         </div>
-        <div class="OA_detail_container">
+
+        <div class="OA_detail_container" style="margin-top: 120px">
             <div class="OA_detail"
-                style="background: url('./images/index/reserve.png') no-repeat 0% 0%;background-size: 80% 100%;">
+                style="background: url('./images/index/reserve.png') no-repeat 0% 0%;background-size: 80% 100%;padding-top: 0;">
                 <div class="OA_card OA_reverse">
                     <div class="OA_card_left opcity" id="rightout1">
                         <img src="images/PM/left1.png">

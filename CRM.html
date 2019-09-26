@@ -18,7 +18,10 @@
     <!-- <script src="js/swiper3.min.js"></script> -->
     <script src="js/global.js"></script>
     <style>
-
+        .swiper-container{
+            overflow-x: hidden;
+            height: 100% !important;
+        }
     </style>
 </head>
 
@@ -43,10 +46,7 @@
             <p>云创CRM客户管理系统，覆盖客户销售、客户营销、客户服务的全生命周期管
                 理，智能管理业务流程，激发业绩持续增长。</p>
             <a href="#" class="bg_primary tiyan_btn" style="color: #fff">免费体验</a>
-
-
-
-            <div class="swiper-container-solution">
+            <div class="swiper-container-solution" style="margin-bottom: 120px">
                 <div class="selected-solution">
                     <div>
                         <div class="swiper-container">
@@ -67,7 +67,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-pagination solution-pagination"></div>
+                            <!-- <div class="swiper-pagination solution-pagination"></div> -->
                         </div>
                     </div>
                 </div>
@@ -81,8 +81,6 @@
                      如果需要分页器  
                     <div class="swiper-pagination"></div>
                 </div> -->
-
-
             <h2 class="primary">打造全流程的客户管理体系</h2>
             <p>实现从线索到回款的全流程管理，让企业借助云创CRM管理客户关系、销售过程、营销活动
                 以及服务支持，完成更多销售业绩。</p>
@@ -102,6 +100,9 @@
                         pagination: {
                             el: ".swiper-pagination",
                             clickable: true
+                        },
+                        onSlideChangeEnd: function(swiper){
+                            alert(swiper.activeIndex) //切换结束时，告诉我现在是第几个slide
                         }
                     });
                 })

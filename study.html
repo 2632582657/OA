@@ -21,17 +21,28 @@
         .swiper-slide-active+div {
             transform: scale(1.1)
         }
-        .selected-solution>div{
+
+        /* .selected-solution>div {
             width: 100%;
             height: 100%;
+        }
+
+        .selected-solution .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .selected-solution .solution-cardlist .col-sm-4 .solution-card img {
+            width: 261px;
+            height: 450px;
+        } */
+
+        .swiper-container {
+            overflow-x: hidden;
+            height: 100% !important;
         }
         .selected-solution .swiper-container{
             width: 100%;
-            height: 100%;
-        }
-        .selected-solution .solution-cardlist .col-sm-4 .solution-card img{
-            width: 261px;
-            height: 450px;
         }
     </style>
 </head>
@@ -49,33 +60,33 @@
                 </div>
             </div>
         </div>
-        <div class="carousel_bg">
+        <div class="carousel_bg" style="padding:0;padding-top:40px;position: relative;background: url('#')">
             <h2 class="primary">让每一家企业都有自己的商学院</h2>
             <p>丰富的课程资源，多元的学习入口，场景化得学习社区，全面加速企业人才培训和绩效转化，让企业都拥有专属商学院。</p>
             <a href="#" class="bg_primary tiyan_btn" style="color: #fff">免费体验</a>
 
-            <div class="swiper-container-solution" style="margin-bottom: 80px">
+            <div class="swiper-container-solution" style="margin-bottom: 120px">
                 <div class="selected-solution">
                     <div>
                         <div class="swiper-container">
                             <div class="solution-cardlist swiper-wrapper">
                                 <div class="col-sm-4 swiper-slide" style="padding:0 20px">
                                     <div class="solution-card">
-                                        <img src="images/study/study1.png" >
+                                        <img src="images/CRM/CRM1.png" width="100%">
                                     </div>
                                 </div>
-                                <div class="col-sm-4 swiper-slide" style="padding:0 30px">
-                                    <div class="solution-card" style="padding:0 30px">
-                                        <img src="images/study/study1.png" >
+                                <div class="col-sm-4 swiper-slide" style="padding:0 20px">
+                                    <div class="solution-card" style="padding:0 20px">
+                                        <img src="images/CRM/CRM2.png" width="100%">
                                     </div>
                                 </div>
                                 <div class="col-sm-4 swiper-slide" style="padding:0 20px">
                                     <div class="solution-card">
-                                        <img src="images/study/study1.png">
+                                        <img src="images/CRM/CRM3.png" width="100%">
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-pagination solution-pagination"></div>
+                            <!-- <div class="swiper-pagination solution-pagination"></div> -->
                         </div>
                     </div>
                 </div>
