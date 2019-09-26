@@ -12,10 +12,28 @@
     <link rel="stylesheet" href="css/OA.css">
     <link rel="stylesheet" href="css/OA_header.css">
     <link rel="stylesheet" href="css/OA_footer.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/swiper.min.js"></script>
     <script src="js/jquery-1.12.4.min.js"></script>
     <!-- <script src="js/swiper3.min.js"></script> -->
     <script src="js/global.js"></script>
+    <style>
+        .swiper-slide-active+div {
+            transform: scale(1.1)
+        }
+        .selected-solution>div{
+            width: 100%;
+            height: 100%;
+        }
+        .selected-solution .swiper-container{
+            width: 100%;
+            height: 100%;
+        }
+        .selected-solution .solution-cardlist .col-sm-4 .solution-card img{
+            width: 261px;
+            height: 450px;
+        }
+    </style>
 </head>
 
 <body>
@@ -35,39 +53,54 @@
             <h2 class="primary">让每一家企业都有自己的商学院</h2>
             <p>丰富的课程资源，多元的学习入口，场景化得学习社区，全面加速企业人才培训和绩效转化，让企业都拥有专属商学院。</p>
             <a href="#" class="bg_primary tiyan_btn" style="color: #fff">免费体验</a>
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="images/study/OA1.png" alt="" width="100%" height="100%"></div>
-                    <div class="swiper-slide"><img src="images/study/OA2.png" alt="" width="100%" height="100%"></div>
-                    <div class="swiper-slide"><img src="images/study/OA3.png" alt="" width="100%" height="100%"></div>
-                </div>
-                <!-- 如果需要分页器 -->
-                <div class="swiper-pagination"></div>
 
-                <!-- 如果需要导航按钮 -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+            <div class="swiper-container-solution" style="margin-bottom: 80px">
+                <div class="selected-solution">
+                    <div>
+                        <div class="swiper-container">
+                            <div class="solution-cardlist swiper-wrapper">
+                                <div class="col-sm-4 swiper-slide" style="padding:0 20px">
+                                    <div class="solution-card">
+                                        <img src="images/study/study1.png" >
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 swiper-slide" style="padding:0 30px">
+                                    <div class="solution-card" style="padding:0 30px">
+                                        <img src="images/study/study1.png" >
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 swiper-slide" style="padding:0 20px">
+                                    <div class="solution-card">
+                                        <img src="images/study/study1.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination solution-pagination"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <h2 class="primary">一站式企业学习平台</h2>
             <p>实现全网在线学习与培训管理，满足企业个性化培训需求，有效沉淀企业知识，帮助企业构建一站式学习平台</p>
             <script>
-                var mySwiper = new Swiper('.swiper-container', {
-                    // direction: 'vertical', // 垂直切换选项
-                    loop: true, // 循环模式选项
-                    autoplay: true,
+                $(function () {
+                    new Swiper(".swiper-container", {
 
-                    // 如果需要分页器
-                    pagination: {
-                        el: '.swiper-pagination',
-                        type: 'bullets',
-                        progressbarOpposite: true,
-                    },
+                        //默认功能属性
+                        speed: 300,
+                        slidesPerView: 3,
+                        spaceBetween: 0,
+                        slidesPerGroup: 1,
+                        loop: true,
+                        autoplay: true,
 
-                    // 如果需要前进后退按钮
-                    navigation: {
-                        nextEl: '.swiper-button-next',
-                        prevEl: '.swiper-button-prev',
-                    },
+                        //分页索引
+                        pagination: {
+                            el: ".swiper-pagination",
+                            clickable: true
+                        }
+                    });
                 })
             </script>
         </div>
@@ -75,7 +108,7 @@
             <div class="OA_detail"
                 style="background: url('./images/index/radius.png') no-repeat 100% 0;background-size: 80% 100%;">
                 <div class="OA_card">
-                    <div class="OA_card_left">
+                    <div class="OA_card_left opcity" id="leftout1">
                         <img src="images/study/left1.png">
                         <h2 class="OA_title">课程管理</h2>
                         <p class="OA_subtitle">强大丰富的课程内容</p>
@@ -84,16 +117,16 @@
                             大的讲师资源，培训内容价值更高
                         </p>
                     </div>
-                    <div>
+                    <div class="opcity" id="rightout1">
                         <img src="images/study/right1.png">
                     </div>
                 </div>
 
                 <div class="OA_card">
-                    <div>
+                    <div class="opcity" id="leftout2">
                         <img src="images/study/right2.png">
                     </div>
-                    <div class="OA_card_left">
+                    <div class="OA_card_left opcity" id="rightout2">
                         <img src="images/study/left2.png">
                         <h2 class="OA_title">直播课程</h2>
                         <p class="OA_subtitle">随时随地轻松学习</p>
@@ -107,7 +140,7 @@
 
                 </div>
                 <div class="OA_card">
-                    <div class="OA_card_left">
+                    <div class="OA_card_left opcity" id="leftout3">
                         <img src="images/study/left3.png">
                         <h2 class="OA_title">学习社区</h2>
                         <p class="OA_subtitle">互动分享更有趣</p>
@@ -118,15 +151,15 @@
 
                         </p>
                     </div>
-                    <div class="OA_card_right">
+                    <div class="OA_card_right opcity" id="rightout3">
                         <img src="images/study/right3.png">
                     </div>
                 </div>
                 <div class="OA_card">
-                    <div>
+                    <div class="opcity" id="leftout4">
                         <img src="images/study/right4.png">
                     </div>
-                    <div class="OA_card_left">
+                    <div class="OA_card_left opcity" id="rightout4">
                         <img src="images/study/left4.png">
                         <h2 class="OA_title">学习管理</h2>
                         <p class="OA_subtitle">学分激励有动力</p>
@@ -141,7 +174,7 @@
                 </div>
                 <div class="OA_card">
 
-                    <div class="OA_card_left">
+                    <div class="OA_card_left opcity" id="leftout5">
                         <img src="images/study/left5.png">
                         <h2 class="OA_title">学习中心</h2>
                         <p class="OA_subtitle"> 学习管理更有效率</p>
@@ -150,7 +183,7 @@
                             能，灵活管理学习进度，学习直观更有效
                         </p>
                     </div>
-                    <div>
+                    <div class="opcity" id="rightout5">
                         <img src="images/study/right5.png">
                     </div>
                 </div>

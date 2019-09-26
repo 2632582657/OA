@@ -12,11 +12,11 @@ $(function () {
             <li class="">
                 <a href="">产品</a>
                 <ul class="hover_menu">
-                    <li><a href="#">OA</a></li>
-                    <li><a href="#">CRM</a></li>
-                    <li><a href="#">HRM</a></li>
-                    <li><a href="#">PM</a></li>
-                    <li><a href="#">企业培训</a></li>
+                    <li><a href="OA.html">OA</a></li>
+                    <li><a href="CRM.html">CRM</a></li>
+                    <li><a href="HRM.html">HRM</a></li>
+                    <li><a href="PM.html">PM</a></li>
+                    <li><a href="study.html">企业培训</a></li>
                 </ul>
                 <i class="blue_border"></i>
             </li>
@@ -150,8 +150,6 @@ $(function () {
 })
 $(window).load(function () {
 
-
-
     $(".menu_box li:nth-child(2)").hover(
         function () {
             $(this).children(".hover_menu").toggleClass('showmenu')
@@ -171,10 +169,12 @@ $(window).load(function () {
         $(this).toggleClass("show")
     })
     // ============================
-    $(".neiyuan div:not(.neiyuan div:last-child)").mouseenter(function () {
-        $(this).css({ transform: "scale(1.1)", zIndex: 3 })
+    var index=1
+    $(".yuan_hover_box").mouseenter(function () {
+        index++;
+        $(this).parent().css({ transform: "scale(1.1)",zIndex:index})
     }).mouseleave(function () {
-        $(this).css({ transform: "scale(1)", zIndex: 1 })
+        $(this).parent().css({ transform: "scale(1)",zIndex:0})
     })
 
 
@@ -185,10 +185,10 @@ $(window).load(function () {
 
     // ================================
     $(".huankuai_box").click(function () {
-        console.log($(this).children(".huankuai_btn"))
-        $(this).children(".huankuai_btn").addClass('opc').parent().parent().siblings().children(".huankuai_box").children(".huankuai_btn").removeClass("opc");
-        console.log($(this).children(".huankuai_btn"))
-        // console.log()
+        // console.log($(this).children(".huankuai_btn"))
+        $(this).children(".huankuai_btn").addClass('dblock').parent().parent().siblings().children(".huankuai_box").children(".huankuai_btn").removeClass("dblock");
+        $(this).children(".huankuai_btn").next().addClass('dblock').parent().parent().nextAll().children(".huankuai_box").children(".huankuai_btn").next().removeClass("dblock")
+        $($('.progress_title li')[$(this).parent().index()]).addClass('show_border').siblings().removeClass('show_border')
         switch ($(this).parent().index()) {
             case 0:
                 $(".baitiao").css({ width: '10%' })
@@ -244,7 +244,7 @@ $(window).load(function () {
             },
         ]
         $(this).addClass('btn_show').siblings().removeClass('btn_show')
-        $('.industry_img img').attr('src', "./images/index/hangye" + $(this).index() + ".jpg")
+        $('.industry_img img').attr('src', "./images/index/hangye" + $(this).index() + ".png")
         $(".i_t").html(info[$(this).index()].it)
         $(".i_c").html(info[$(this).index()].ic)
         $(".i_btn").attr("href", info[$(this).index()].url)
@@ -333,8 +333,38 @@ $(window).load(function () {
 
 
 
-
-
+//动画
+    $(function(){
+        var now=document.documentElement.scrollTop || document.body.scrollTop;
+        if(now>=0){
+          $('#leftout1').addClass('animated fadeInLeft');
+          $('#rightout1').addClass('animated fadeInRight dalay-5s');
+        }
+        window.addEventListener("scroll",function(e){
+          var scrollTop=document.documentElement.scrollTop || document.body.scrollTop;
+          console.log(scrollTop)
+          if(scrollTop>900){
+            $('#leftout1').addClass('animated fadeInLeft');
+            $('#rightout1').addClass('animated fadeInRight dalay-5s');
+          }
+          if(scrollTop>1500){
+            $('#leftout2').addClass('animated fadeInLeft');
+            $('#rightout2').addClass('animated fadeInRight');
+          }
+          if(scrollTop>2000){
+            $('#leftout3').addClass('animated fadeInLeft');
+            $('#rightout3').addClass('animated fadeInRight');
+          }
+          if(scrollTop>2500){
+            $('#leftout4').addClass('animated fadeInLeft');
+            $('#rightout4').addClass('animated fadeInRight');
+          }
+          if(scrollTop>3000){
+            $('#leftout5').addClass('animated fadeInLeft');
+            $('#rightout5').addClass('animated fadeInRight');
+          }
+        });
+      });
 
 
 
