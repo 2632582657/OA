@@ -171,13 +171,14 @@ $(window).load(function () {
         $(this).toggleClass("show")
     })
     // ============================
-    var index = 1
-    $(".yuan_hover_box").mouseenter(function () {
-        index++;
-        $(this).parent().css({ transform: "scale(1.1)", zIndex: index })
-    }).mouseleave(function () {
-        $(this).parent().css({ transform: "scale(1)", zIndex: 0 })
-    })
+    // var index = 1
+    // $(".yuan_hover_box a").mouseenter(function () {
+    //     // index++;
+    //     console.log($(this))
+    //     $(this).parent().parent().css({ transform: "scale(1.1)", zIndex: 1 });
+    // }).mouseleave(function () {
+    //     $(this).parents().parent().css({ transform: "scale(1)", zIndex: 0 });
+    // })
 
 
 

@@ -12,6 +12,7 @@
 *{
     box-sizing: border-box;
 }
+
 .contianer{
     box-sizing: border-box;
     width: 100%;
@@ -19,6 +20,7 @@
     height: auto;
     margin: 0 auto;
     position: relative;
+    overflow: hidden;
 }
 #header{
     width:1200px;
@@ -65,11 +67,11 @@
     color:#fff;
     position: relative;
     opacity: 0.5;
-    font-weight: bold;
    
 }
 .menu_box>li:hover{
     opacity: 1;
+    font-weight: bold
 }
 .menu_box>li .blue_border{
     transition: all .5s linear;
@@ -131,7 +133,6 @@
     width: 100%;
     font-size:14px;
     font-family:Microsoft YaHei;
-    font-weight:bold;
     color:rgba(0,0,0,1);
     line-height: 28px;
 }

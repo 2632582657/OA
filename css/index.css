@@ -4,9 +4,9 @@
 .banner_box{
     width: 100%;
     min-width: 1200px;
-    height: 823px;
+    height: 883px;
     background: url('../images/index/banner_di.png') no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
     margin: 0 auto;
     margin-bottom: 320px;
 }
@@ -243,6 +243,9 @@
     right: 32%;
 }
 
+
+
+
 /*============================================进度条 */
 .progress_box{
     width: 1200px;
@@ -420,9 +423,10 @@
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
+    filter: blur(0)
  }
 .m_scale{
-   transform: scale(1.1)
+   transform: scale(1.2);
 }
 .project_item:nth-child(2n){
     background: #f9fafe
@@ -453,8 +457,9 @@
     width: 100vw;
     height: 255px;
     background: url('../images/index/setiao@2x.png');
-    transform: translateY(120%);
+    transform: translateY(60%);
     z-index: -2;
+    overflow: hidden;
 }
 
 /* ================================行业 */
