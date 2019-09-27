@@ -98,9 +98,10 @@
     width: 1200px;
     margin: 0 auto;
     height: 100%;
-    padding-top: 100px;
+    /* padding-top: 100px; */
     overflow: hidden;
     margin-bottom: 80px;
+    margin-top: 81px;
 }
 .OA_card{
     padding-right: 120px;
@@ -117,7 +118,7 @@
     padding-left: 120px !important;
 }
 .OA_card_left{
-    width: 230px;
+    width: 297px;
     text-align: left;
 }
 .OA_card div:not(.OA_card_left) img{
@@ -130,18 +131,31 @@
     font-size:28px;
     font-weight: 400;
     color: #000;
+    margin-top: 33px;
+    margin-bottom: 37px;
 }
 .OA_card .OA_card_left .OA_subtitle{
     color:rgba(30,120,230,1);
     font-size:18px;
     font-weight:400;
-    margin:30px 0;
+    /* margin:30px 0; */
 }
 .OA_card .OA_card_left .OA_content{
     font-size: 16px;
     font-weight:300;
     color:rgba(1,1,1,1);
     line-height: 26px;
+}
+.OA_card .OA_card_left .OA_content_btn{
+    display: block;
+    width: 131px;
+    height: 35px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 35px;
+    background: url('../images/OA/oa_btn.png');
+    text-align: center;
+    margin-top: 27px;
 }
 
 

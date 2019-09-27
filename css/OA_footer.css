@@ -1,7 +1,7 @@
 /* ================================== */
 #footer{
     width: 100%;
-    height: 1174px;
+    height: auto;
 }
 .brand_container{
     margin-top: 0;
@@ -88,7 +88,7 @@
     line-height: 2;
 }
 .fun li a{
-    color: #fff;
+    color: #E5E5E5;
     font-size: 14px
 }
 .fun li img{
@@ -101,6 +101,7 @@
 }
 .fun li:first-child a{
     font-size: 16px;
+    color: #fff;
 }
 
 .record{
@@ -112,8 +113,20 @@
     justify-content: center;
     align-items: center;
 }
+.record div:first-child{
+    width: 110px;
+    height: 30px;
+}
+.record div:first-child img{
+    width: 100%;
+    height: 100%;
+}
 .record .rec{
     border-left: 1px solid rgba(255,255,255,.25);
     padding-left: 24px;
-    color: #fff;
+    
+}
+.record .rec p{
+    color: #E5E5E5;
+    font-size: 12px
 }

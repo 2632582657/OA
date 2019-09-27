@@ -139,8 +139,8 @@ $(function () {
             </ul>
         </div>
         <div class="record">
-            <div style="padding-right: 24px">
-                <img src="./images/OA/logo.png">
+            <div style="margin-right: 24px">
+                <img src="./images/index/bot-logo.png">
             </div>
             <div class="rec">
                 <p>Copyright &copy; 2018 青岛云创智能集团有限公司 版权所有 </p>
@@ -170,15 +170,6 @@ $(window).load(function () {
     $('.hover_menu>li').hover(function () {
         $(this).toggleClass("show")
     })
-    // ============================
-    // var index = 1
-    // $(".yuan_hover_box a").mouseenter(function () {
-    //     // index++;
-    //     console.log($(this))
-    //     $(this).parent().parent().css({ transform: "scale(1.1)", zIndex: 1 });
-    // }).mouseleave(function () {
-    //     $(this).parents().parent().css({ transform: "scale(1)", zIndex: 0 });
-    // })
 
 
 
@@ -187,7 +178,8 @@ $(window).load(function () {
 
 
     // ================================
-    $(".huankuai_box").click(function () {
+    $(".huankuai_box").hover(function () {
+        console.log(111)
         // console.log($(this).children(".huankuai_btn"))
         $(this).children(".huankuai_btn").addClass('dblock').parent().parent().siblings().children(".huankuai_box").children(".huankuai_btn").removeClass("dblock");
         $(this).children(".huankuai_btn").next().addClass('dblock').parent().parent().nextAll().children(".huankuai_box").children(".huankuai_btn").next().removeClass("dblock")
@@ -271,7 +263,7 @@ $(window).load(function () {
 
 
     // 底部信息
-    $(".brand_btn ul li").on('click', function () {
+    $(".brand_btn ul li").hover(function () {
         var title = [
             {
                 fc: "一汽大众西部区，全球知名汽车品牌的营销团队。管理人员超过1700多人，如何与伙伴保持紧密快速的业务沟通，是大众西区业务目标达成的关键。",

@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/contentStyle_pc.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/OA.css">
+    <link rel="stylesheet" href="css/OA_header.css">
+    <link rel="stylesheet" href="css/OA_footer.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/home.css">
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- <script src="js/swiper3.min.js"></script> -->
+    <script src="js/global.js"></script>
+    <style>
+        /* .yuan_hover_box:hover+img { */
+        /* transform: scale(1.1); */
+        /* z-index: 9; */
+        /* } */
+
+        .yuan_hover_box1 {
+            cursor: pointer;
+            background-color: red;
+            z-index: 999;
+            position: absolute;
+            left: 350px;
+            top: 120px;
+        }
+
+        .yuan_hover_box1:hover+#yuan1 {
+            transform: rotate(90deg) scale(1.1) !important;
+        }
+
+        .yuan_hover_box2 {
+            cursor: pointer;
+            background-color: green;
+            z-index: 999;
+            position: absolute;
+            left: 130px;
+            top: 130px;
+        }
+
+        .yuan_hover_box2:hover+#yuan2 {
+            transform: rotate(45deg) scale(1.1) !important;
+        }
+
+        .yuan_hover_box3 {
+            cursor: pointer;
+            background-color: green;
+            z-index: 999;
+            position: absolute;
+            left: 0px;
+            top: 300px;
+        }
+
+        .yuan_hover_box3:hover+#yuan3 {
+            transform: rotate(0deg) scale(1.1) !important;
+        }
+
+        .yuan_hover_box4 {
+            cursor: pointer;
+            background-color: red;
+            z-index: 999;
+            position: absolute;
+            left: 40px;
+            top: 460px;
+        }
+
+        .yuan_hover_box4:hover+#yuan4 {
+            transform: rotate(-44deg) scale(1.1) !important;
+        }
+
+        .yuan_hover_box5 {
+            cursor: pointer;
+            background-color: red;
+            z-index: 999;
+            position: absolute;
+            left: 180px;
+            top: 570px;
+        }
+
+        .yuan_hover_box5:hover+#yuan5 {
+            transform: rotate(-89deg) scale(1.1) !important;
+        }
+
+        .yuan_hover_box6 {
+            cursor: pointer;
+            background-color: red;
+            z-index: 999;
+            position: absolute;
+            left: 330px;
+            top: 550px;
+        }
+
+        .yuan_hover_box6:hover+#yuan6 {
+            transform: rotate(-134deg) scale(1.1) !important;
+        }
+
+        .yuan_hover_box7 {
+            cursor: pointer;
+            background-color: red;
+            z-index: 999;
+            position: absolute;
+            left: 420px;
+            top: 450px;
+        }
+
+        .yuan_hover_box7:hover+#yuan7 {
+            transform: rotate(-179deg) scale(1.1) !important;
+        }
+
+        .yuan_hover_box8 {
+            cursor: pointer;
+            background-color: red;
+            z-index: 999;
+            position: absolute;
+            left: 430px;
+            top: 350px;
+        }
+
+        .yuan_hover_box8:hover+#yuan8 {
+            transform: rotate(-225deg) scale(1.1) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contianer">
+        <div id="header" class="header">
+        </div>
+        <div class="banner_box">
+            <div class="banner">
+                <div class="content_title_box">
+                    <div class="content_title" style="top:263px;right:0;width: 520px;">
+                        <h2 style="font-size: 48px">智能企业工作平台</h2>
+                        <h2
+                            style="font-size: 34px;margin-top: 26px;margin-bottom: 41px;font-weight:300;color:rgba(241,241,241,1);">
+                            一个平台，让办公立马简单</h2>
+                        <div class="header_input">
+                            <input type="text" class="input_kw">
+                            <a href="" class="input_btn">免费体验<i class="input_jiantou"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div class="yuan">
+                    <div class="neiyuan">
+                        <div class="yuan_hover_box1">
+                            <a href="OA.html">智慧OA</a>
+                            <i class="yuan_hover_icon1"></i>
+                        </div>
+                        <div id="yuan1">
+                            <img src="images/index/y1.png">
+                        </div>
+                        <div class="yuan_hover_box2">
+                            <a href="OA.html">全新CRM</a>
+                            <i class="yuan_hover_icon2"></i>
+                        </div>
+                        <div id="yuan2">
+                            <img src="images/index/y2.png">
+                        </div>
+                        <div class="yuan_hover_box3">
+                            <a href="OA.html">高效HRM</a>
+                            <i class="yuan_hover_icon3"></i>
+                        </div>
+                        <div id="yuan3">
+                            <img src="images/index/y3.png">
+                        </div>
+                        <div class="yuan_hover_box4">
+                            <a href="OA.html">培训</a>
+                            <i class="yuan_hover_icon4"></i>
+                        </div>
+                        <div id="yuan4">
+                            <img src="images/index/y4.png">
+                        </div>
+                        <div class="yuan_hover_box5">
+                            <a href="OA.html">PM</a>
+                            <i class="yuan_hover_icon5"></i>
+                        </div>
+                        <div id="yuan5">
+                            <img src="images/index/y5.png">
+                        </div>
+                        <div class="yuan_hover_box6">
+                            <a href="OA.html">WMS</a>
+                            <i class="yuan_hover_icon6"></i>
+                        </div>
+                        <div id="yuan6">
+                            <img src="images/index/y6.png">
+                        </div>
+                        <div class="yuan_hover_box7">
+                            <a href="OA.html">ERP</a>
+                            <i class="yuan_hover_icon7"></i>
+                        </div>
+                        <div id="yuan7">
+                            <img src="images/index/y7.png">
+                        </div>
+                        <div class="yuan_hover_box8">
+                            <a href="OA.html">...</a>
+                            <i class="yuan_hover_icon8"></i>
+                        </div>
+                        <div id="yuan8">
+                            <img src="images/index/y8.png">
+                        </div>
+                        <div id="zhongxin">
+                            <img src="./images/index/logo_btn.png" alt="">
+                        </div>
+                        <!-- todo -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="progress_waice">
+            <div class="progress_box">
+                <h2 class="index_title">办公效率太低？云创办公助您升级</h2>
+                <div class="progress">
+                    <ul class="progress_title">
+                        <li class="show_border"><a href="#">系统太多，运营成本水涨船高</a></li>
+                        <li><a href="#">系统太多，运营成本水涨船高</a></li>
+                        <li><a href="#">信息不通，部门推诿踢皮球</a></li>
+                        <li><a href="#">数据表格一大堆，谁看谁头痛 </a></li>
+                        <li><a href="#">客户商机如何找？销售一问三不知</a></li>
+                    </ul>
+                    <div class="progress_r">
+                        <ul class="fenduan">
+                            <li>
+                                <div class="huankuai_box">
+                                    <div class="huankuai_btn dblock" style="position: relative; left: -2px;">
+
+                                    </div>
+                                    <div class="huakuai dblock" style="margin-left: -12px;"></div>
+                                </div>
+                                <i class="baitiao"></i>
+                            </li>
+                            <li>
+                                <div class="huankuai_box">
+                                    <div class="huankuai_btn" style="position: relative; left: -1px;">
+                                    </div>
+                                    <div class="huakuai" style="margin-left: -11px;"></div>
+                                </div>
+                                <i class="baitiao" style="width: 0"></i>
+                            </li>
+                            <li>
+                                <div class="huankuai_box">
+                                    <div class="huankuai_btn">
+
+                                    </div>
+                                    <div class="huakuai" style="margin-left: -10px;"></div>
+                                </div>
+                                <i class="baitiao" style="width: 0"></i>
+                            </li>
+                            <li>
+                                <div class="huankuai_box">
+                                    <div class="huankuai_btn" style="position: relative; left: 1px;">
+
+                                    </div>
+                                    <div class="huakuai" style="margin-left: -9px;"></div>
+                                </div>
+                                <i class="baitiao" style="width: 0"></i>
+                            </li>
+                            <li>
+                                <div class="huankuai_box">
+                                    <div class="huankuai_btn" style="position: relative; left: 2px;">
+
+                                    </div>
+                                    <div class="huakuai" style="margin-left: -8px;"></div>
+                                </div>
+                                <i class="baitiao" style="width: 0"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="progress_yinying"></div>
+        </div>
+
+
+        <div class="zhanshi_waice">
+            <div class="zhanshi_box">
+                <h2 class="index_title">智慧企业一体化办公平台</h2>
+                <p class="zhanshi_cont" style="margin-top: 20px;margin-bottom:103px">
+                    云创办公是集工作沟通、办公软件集成、数据分析等功能为一体的智能化办公软件服务系统平台</p>
+
+                <div class="clearfix home-pingtai" style="padding: 0">
+                    <div class="container">
+                        <div class="nr">
+                            <div class="third">
+                                <div class="mountain-01"></div>
+                                <div class="mountain-02">
+                                    <div class="flag"></div>
+                                </div>
+                                <div class="columnar">
+                                    <ul>
+                                        <li class="columnars-01">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-02">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-03">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-04">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-05">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-06">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-07">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-08">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-09">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-10">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-11">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-12">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-13">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-14">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-15">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-16">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-17">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-18">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-19">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-20">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-21">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-22">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-23">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-24">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-25">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-26">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-27">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-28">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-29">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-30">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-31">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-32">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-33">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-34">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-35">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-36">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-37">
+                                            <div class="box"></div>
+                                        </li>
+                                        <li class="columnars-38">
+                                            <div class="box"></div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="items">
+                                    <ul>
+                                        <li class="item item-01"
+                                            data-scroll-reveal="enter left, move 30px, over 1s, wait 0.5s,">
+                                            <span class="box">
+                                                <span class="txt">
+                                                    全行业解决方案
+                                                </span>
+                                                <div class="icon">
+                                                    <span>
+                                                        <img src="images/qhyjjfa1.png" class="middleCenter defalut">
+                                                        <img src="images/qhyjjfa11.png" class="middleCenter hover">
+                                                    </span>
+                                                    <div class="circle circle-10"></div>
+                                                </div>
+                                            </span>
+                                        </li>
+                                        <li class="item item-02"
+                                            data-scroll-reveal="enter left, move 30px, over 1s, wait 1s,">
+                                            <span class="box">
+                                                <span class="txt">
+                                                    需求定制
+                                                </span>
+                                                <div class="icon">
+                                                    <span>
+                                                        <img src="images/xqdz1.png" class="middleCenter defalut">
+                                                        <img src="images/xqdz11.png" class="middleCenter hover">
+                                                    </span>
+                                                    <div class="circle circle-40"></div>
+                                                </div>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <li class="item item-03"
+                                        data-scroll-reveal="enter left, move 30px, over 1s, wait 1.5s,">
+                                        <span class="box">
+                                            <span class="txt">
+                                                集成拓展
+                                            </span>
+                                            <div class="icon">
+                                                <span>
+                                                    <img src="images/jctz1.png" class="middleCenter defalut">
+                                                    <img src="images/jctz11.png" class="middleCenter hover">
+                                                </span>
+                                                <div class="circle circle-70"></div>
+                                            </div>
+                                        </span>
+                                    </li>
+                                    <!--                    <li class="item item-04" data-scroll-reveal="enter left, move 30px, over 1s, wait 2s,">-->
+                                    <!--                                <span class="box">-->
+                                    <!--                                    <span class="txt">-->
+                                    <!--                                        数字威客-->
+                                    <!--                                    </span>-->
+                                    <!--                                    <div class="icon">-->
+                                    <!--                                        <span>-->
+                                    <!--                                        </span>-->
+                                    <!--                                        <div class="circle circle-80"></div>-->
+                                    <!--                                    </div>-->
+                                    <!--                                </span>-->
+                                    <!--                    </li>-->
+                                    <li class="item item-05"
+                                        data-scroll-reveal="enter left, move 30px, over 1s, wait 2.5s,">
+                                        <span class="box">
+                                            <span class="txt">
+                                                统一唯一
+                                            </span>
+                                            <div class="icon">
+                                                <span>
+                                                    <img src="images/wyty1.png" class="middleCenter defalut">
+                                                    <img src="images/wyty11.png" class="middleCenter hover">
+                                                </span>
+                                                <div class="circle circle-10"></div>
+                                            </div>
+                                        </span>
+                                    </li>
+                                    <li class="item item-06"
+                                        data-scroll-reveal="enter right, move 30px, over 1s, wait 2s,">
+                                        <span class="box">
+                                            <span class="txt">
+                                                数据BI
+                                            </span>
+                                            <div class="icon">
+                                                <span>
+                                                    <img src="images/sjbi1.png" class="middleCenter defalut">
+                                                    <img src="images/sjbi11.png" class="middleCenter hover">
+                                                </span>
+                                                <div class="circle circle-40"></div>
+                                            </div>
+                                        </span>
+                                    </li>
+                                    <li class="item item-07"
+                                        data-scroll-reveal="enter right, move 30px, over 1s, wait 1.5s,">
+                                        <span class="box">
+                                            <span class="txt">
+                                                独立部署
+                                            </span>
+                                            <div class="icon">
+                                                <span>
+                                                    <img src="images/dlbs1.png" class="middleCenter defalut">
+                                                    <img src="images/dlbs11.png" class="middleCenter hover">
+                                                </span>
+                                                <div class="circle circle-70"></div>
+                                            </div>
+                                        </span>
+                                    </li>
+                                    <li class="item item-08"
+                                        data-scroll-reveal="enter right, move 30px, over 1s, wait 1s,">
+                                        <span class="box">
+                                            <span class="txt">
+                                                安全可靠
+                                            </span>
+                                            <div class="icon">
+                                                <span>
+                                                    <img src="images/aqkk1.png" class="middleCenter defalut">
+                                                    <img src="images/aqkk11.png" class="middleCenter hover">
+                                                </span>
+                                                <div class="circle circle-80"></div>
+                                            </div>
+                                        </span>
+                                    </li>
+                                    <li class="item item-09"
+                                        data-scroll-reveal="enter right, move 30px, over 1s, wait 0.5s,">
+                                        <span class="box">
+                                            <span class="txt">
+                                                高效便捷
+                                            </span>
+                                            <div class="icon">
+                                                <span>
+                                                    <img src="images/gxbj1.png" class="middleCenter defalut">
+                                                    <img src="images/gxbj11.png" class="middleCenter hover">
+                                                </span>
+                                                <div class="circle circle-10"></div>
+                                            </div>
+                                        </span>
+                                    </li>
+                                    <li class="item item-10"
+                                        data-scroll-reveal="enter right, move 30px, over 1s, wait 0.5s,">
+                                        <span class="box">
+                                            <span class="txt">
+                                                多次开发
+                                            </span>
+                                            <div class="icon">
+                                                <span>
+                                                    <img src="images/dckf1.png" class="middleCenter defalut">
+                                                    <img src="images/dckf11.png" class="middleCenter hover">
+                                                </span>
+                                                <div class="circle circle-10"></div>
+                                            </div>
+                                        </span>
+                                    </li>
+                                </div>
+                                <div class="text">
+                                    SaaS应用
+                                </div>
+                            </div>
+
+                            <div class="sencond" data-scroll-reveal="enter bottom, move 30px, over 1s, wait 0.5s,">
+                                <div class="text">
+                                    <span>大数据服务</span>
+                                    <span>AI能力</span>
+                                    <span>容器平台</span>
+                                    <span>数据库服务</span>
+                                    <span>缓存服务</span>
+                                    <span>消息队列</span>
+                                    <span>文件服务</span>
+                                    <span>日志服务</span>
+                                    <span>搜索引擎服务</span>
+                                    <span>工作流引擎</span>
+                                    <span>开放API</span>
+                                </div>
+                            </div>
+                            <div class="third-02" data-scroll-reveal="enter bottom, move 30px, over 1s, wait 0.9s,">
+                                <div class="text">
+                                    <span>PaaS平台</span>
+                                </div>
+                            </div>
+                            <div class="first" data-scroll-reveal="enter bottom, move 50px, over 1s, wait 0s,">
+                                <div class="text">
+                                    <span>云计算</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="zhanshi_yinying"></div>
+        </div>
+
+        <div class="fun_waice">
+            <div class="fun_list_box">
+                <h2 class="index_title">便捷的沟通工具，快速反应，及时反馈</h2>
+                <div class="fun_list">
+                    <div class="fun_item">
+                        <img src="images/index/fun_icon1.png">
+                        <p class="fun_item_t">你的全能会议助手</p>
+                        <p class="fun_item_c">管理会议，让会议有传达、有分解、有结果</p>
+                    </div>
+                    <div class="fun_item">
+                        <img src="images/index/fun_icon2.png">
+                        <p class="fun_item_t">不一样的安全邮箱</p>
+                        <p class="fun_item_c"> 提高邮箱数据安全性，优化你的邮箱体验</p>
+                    </div>
+                    <div class="fun_item">
+                        <img src="images/index/fun_icon3.png">
+                        <p class="fun_item_t">随时随地闪速协同</p>
+                        <p class="fun_item_c">快速沟通，智能通讯，平台信息化预警</p>
+                    </div>
+                    <div class="fun_item">
+                        <img src="images/index/fun_icon4.png">
+                        <p class="fun_item_t">5G时代的网络通话</p>
+                        <p class="fun_item_c"> 大幅度为企业降低通讯成本简单拨号，快速协同</p>
+                    </div>
+                    <div class="fun_item">
+                        <img src="images/index/fun_icon5.png" style="margin-top: 16px;margin-bottom: 16px">
+                        <p class="fun_item_t">无门槛的分享平台</p>
+                        <p class="fun_item_c">部门分享，可沉淀、复制的工作经验</p>
+                    </div>
+                    <div class="fun_item">
+                        <img src="images/index/fun_icon6.png">
+                        <p class="fun_item_t">高效安全多人群聊</p>
+                        <p class="fun_item_c"> 组织内实名制聊天，高效传达，群聊信息不丢失</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fun_yinying"></div>
+        </div>
+
+        <div class="project_waice" style="margin-top:293px">
+            <div class="project_box">
+                <h2 class="index_title">全方位企业服务，帮助企业节省成本，轻装上阵</h2>
+                <div class="project_list">
+                    <div class="project_item">
+                        <h2>云创智慧OA</h2>
+                        <p>日程管理</p>
+                        <p>移动审批</p>
+                        <p>考勤打卡</p>
+                        <p>工作汇报</p>
+                        <p>物资采购</p>
+                    </div>
+                    <div class="project_item">
+                        <h2>云创CRM</h2>
+                        <p>客户信息</p>
+                        <p>销售线索</p>
+                        <p>商机管理</p>
+                        <p>客户跟进</p>
+                        <p>订单管理</p>
+                    </div>
+                    <div class="project_item">
+                        <h2>云创HRM</h2>
+                        <p>员工招聘</p>
+                        <p>员工信息</p>
+                        <p>薪酬福利</p>
+                        <p>培训管理</p>
+                        <p>绩效管理</p>
+                    </div>
+                    <div class="project_item">
+                        <h2>云创PM</h2>
+                        <p>立项管理</p>
+                        <p>项目计划</p>
+                        <p>数据分析</p>
+                        <p>在线沟通</p>
+                        <p>文档共享</p>
+                    </div>
+                    <div class="project_item">
+                        <h2>企业培训</h2>
+                        <p>课程管理</p>
+                        <p>课程直播</p>
+                        <p>学习社区</p>
+                        <p>学分激励</p>
+                        <p>学习中心</p>
+                    </div>
+                </div>
+            </div>
+            <div class="jian_bian_tiao"></div>
+        </div>
+
+        <div class="industry_waice">
+            <div class="industry_box" style="margin-top: 0">
+                <h2 class="index_title" style="color:#fff">专属的企业解决方案，你需要的都在这里</h2>
+                <div class="industry">
+                    <div class="industry_img">
+                        <img src="./images/index/hangye0.png">
+                        <div class="industry_content">
+                            <h2 class="i_t">
+                                大数据驱动智能营销
+                                从现在预见未来
+                            </h2>
+                            <p class="i_c">
+                                云创办公全渠道智能服务，将日常所有运营
+                                数据进行系统整理、记录、分析，以直观的形式
+                                展现给用户各种商业数据让数据价值清晰可见。
+                            </p>
+                            <a href="#" class="i_btn">了解更多</a>
+                        </div>
+                    </div>
+                    <div class="industry_btn">
+                        <div class="btn_show">地产行业 <i></i></div>
+                        <div class="">制造行业 <i></i></div>
+                        <div class="">商贸行业 <i></i></div>
+                        <div class="">服装行业 <i></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="industry_yinying"></div>
+        </div>
+
+        <div class="pattern_waice">
+            <div class="pattern_box" style="margin-top: 120px;margin-bottom: 133px;">
+                <h2 class="index_title">云创办公-提升企业运营“格局”</h2>
+                <div class="pattern">
+                    <div class="pattern_left">
+                        <h2>传统企业系统</h2>
+                        <img src="./images/index/geju1.png">
+                        <div>
+                            <p>多套系统，管理多杂乱无章</p>
+                            <p>信息障碍，员工对接时效差</p>
+                            <p>管理困难，人工耗损成本高</p>
+                        </div>
+                    </div>
+                    <i class="shuxian"></i>
+                    <div class="pattern_left">
+                        <h2>传统企业系统</h2>
+                        <img src="./images/index/geju2.png">
+                        <div>
+                            <p>一个平台，所有系统统一管理</p>
+                            <p>整合业务模块，减少沟通成本</p>
+                            <p>平台数据打通，辅助管理决策</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pattern_yinying"></div>
+        </div>
+
+
+        <div id="footer"></div>
+    </div>
+</body>
+
+</html>

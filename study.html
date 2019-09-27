@@ -19,30 +19,26 @@
     <script src="js/global.js"></script>
     <style>
         .swiper-slide-active+div {
-            transform: scale(1.1)
+            transform: scale(1.1) !important
         }
-
-        /* .selected-solution>div {
-            width: 100%;
-            height: 100%;
-        }
-
-        .selected-solution .swiper-container {
-            width: 100%;
-            height: 100%;
-        }
-
-        .selected-solution .solution-cardlist .col-sm-4 .solution-card img {
-            width: 261px;
-            height: 450px;
-        } */
 
         .swiper-container {
             overflow-x: hidden;
             height: 100% !important;
         }
+        .selected-solution>div{
+            width: 1200px;
+        }
         .selected-solution .swiper-container{
             width: 100%;
+            margin-left: -17px;
+        }
+        .swiper-slide{
+            transform: scale(0.9) !important;
+        }
+        .swiper-slide .solution-card{
+            width: 349px;
+            height: 581px;
         }
     </style>
 </head>
@@ -51,7 +47,7 @@
     <div class="contianer">
         <div id="header" class="header">
         </div>
-        <div class="content" style="background: url('./images/study/bg.png') no-repeat;background-size: 100% 100%;">
+        <div class="content" style="background: url('./images/study/bg.png') no-repeat;background-size: cover">
             <div class="content_title_box">
                 <div class="content_title">
                     <h2>云创企业培训平台</h2>
@@ -60,7 +56,7 @@
                 </div>
             </div>
         </div>
-        <div class="carousel_bg" style="padding:0;padding-top:40px;position: relative;background: url('#')">
+        <div class="carousel_bg" style="padding:0;padding-top:40px;position: relative; margin-top: 78px">
             <h2 class="primary">让每一家企业都有自己的商学院</h2>
             <p>丰富的课程资源，多元的学习入口，场景化得学习社区，全面加速企业人才培训和绩效转化，让企业都拥有专属商学院。</p>
             <a href="#" class="bg_primary tiyan_btn" style="color: #fff">免费体验</a>
@@ -117,84 +113,78 @@
         </div>
         <div class="OA_detail_container">
             <div class="OA_detail"
-                style="background: url('./images/index/radius.png') no-repeat 100% 0;background-size: 80% 100%;">
+                style="background: url('./images/index/radius.png') no-repeat 100% 0;background-size: 70% 100%;margin-top: 200px;">
                 <div class="OA_card">
                     <div class="OA_card_left opcity" id="leftout1">
-                        <img src="images/study/left1.png">
+                        <img src="images/study/left1.png" width="140px" height="110px">
                         <h2 class="OA_title">课程管理</h2>
                         <p class="OA_subtitle">强大丰富的课程内容</p>
                         <p class="OA_content">
-                            汇集各行业近千门丰富课程，还有强
-                            大的讲师资源，培训内容价值更高
+                            汇集各行业近千门丰富课程，还有强 大的讲师资源，培训内容价值更高
                         </p>
+                        <a href="#" class="OA_content_btn">免费体验</a>
                     </div>
-                    <div class="opcity" id="rightout1">
+                    <div class="opcity" id="rightout1" style="width: 453px;height:262px">
                         <img src="images/study/right1.png">
                     </div>
                 </div>
 
                 <div class="OA_card">
-                    <div class="opcity" id="leftout2">
+                    <div class="opcity" id="leftout2" style="width: 306px;height:323px">
                         <img src="images/study/right2.png">
                     </div>
                     <div class="OA_card_left opcity" id="rightout2">
-                        <img src="images/study/left2.png">
+                        <img src="images/study/left2.png" width="93px" height="100px">
                         <h2 class="OA_title">直播课程</h2>
                         <p class="OA_subtitle">随时随地轻松学习</p>
                         <p class="OA_content">
-
-                            直播实时互动，覆盖培训学习全场景，
-                            课程内容还可留存，直接生成微课
-
+                            直播实时互动，覆盖培训学习全场景，课程内容还可留存，直接生成微课
                         </p>
+                        <a href="#" class="OA_content_btn">免费体验</a>
                     </div>
 
                 </div>
                 <div class="OA_card">
                     <div class="OA_card_left opcity" id="leftout3">
-                        <img src="images/study/left3.png">
+                        <img src="images/study/left3.png" width="115px" height="95px">
                         <h2 class="OA_title">学习社区</h2>
                         <p class="OA_subtitle">互动分享更有趣</p>
                         <p class="OA_content">
-
-                            社交化的知识分享，沉淀员工潜在知
-                            识，加速优质知识在组织内的高效传播
-
+                            社交化的知识分享，沉淀员工潜在知识，加速优质知识在组织内的高效传播
                         </p>
+                        <a href="#" class="OA_content_btn">免费体验</a>
                     </div>
-                    <div class="OA_card_right opcity" id="rightout3">
+                    <div class="OA_card_right opcity" id="rightout3" style="width: 464px;height:335px">
                         <img src="images/study/right3.png">
                     </div>
                 </div>
                 <div class="OA_card">
-                    <div class="opcity" id="leftout4">
+                    <div class="opcity" id="leftout4" style="width: 450px;height:260px">
                         <img src="images/study/right4.png">
                     </div>
                     <div class="OA_card_left opcity" id="rightout4">
-                        <img src="images/study/left4.png">
+                        <img src="images/study/left4.png" width="110px" height="92px">
                         <h2 class="OA_title">学习管理</h2>
                         <p class="OA_subtitle">学分激励有动力</p>
                         <p class="OA_content">
-
-                            游戏式学习激励，让学习更有趣，设
-                            置学分排行榜，课程学习更有动力
-
+                            游戏式学习激励，让学习更有趣，设置学分排行榜，课程学习更有动力
                         </p>
+                        <a href="#" class="OA_content_btn">免费体验</a>
                     </div>
 
                 </div>
                 <div class="OA_card">
 
                     <div class="OA_card_left opcity" id="leftout5">
-                        <img src="images/study/left5.png">
+                        <img src="images/study/left5.png" width="137px" height="92px">
                         <h2 class="OA_title">学习中心</h2>
                         <p class="OA_subtitle"> 学习管理更有效率</p>
                         <p class="OA_content">
-                            设置学习记录、课程笔记，任务管理等功
-                            能，灵活管理学习进度，学习直观更有效
+                            设置学习记录、课程笔记，任务管理等功能，灵活管理学习进度，学习直观更有效
                         </p>
+                        <a href="#" class="OA_content_btn">免费体验</a>
                     </div>
-                    <div class="opcity" id="rightout5">
+                    <div class="opcity" id="rightout5" style="width: 409px;height:281px">
                         <img src="images/study/right5.png">
                     </div>
                 </div>

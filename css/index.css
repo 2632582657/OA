@@ -6,9 +6,9 @@
     min-width: 1200px;
     height: 883px;
     background: url('../images/index/banner_di.png') no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
     margin: 0 auto;
-    margin-bottom: 320px;
+    margin-bottom: 239px;
 }
 .banner{
     width: 1200px;
@@ -37,6 +37,7 @@
     background: transparent;
     color: #fff;
     font-size: 30px;
+    padding-left: 5px;
 }
 .input_btn{
     display: inline-block;
@@ -59,11 +60,12 @@
     margin-left: 8px;   
 }
 .yuan{
-    width: 50%;
-    height: 50%;
+    width: 685px;
+    height: 663px;
     position: absolute;
-    bottom: -25%;
-    border-radius: 100%
+    bottom: -118px;
+    border-radius: 100%;
+    transform: translateX(0px)
 }
 .neiyuan{
     width: 100%;
@@ -71,183 +73,295 @@
     position: relative;
 }
 .yuan  img{
-    width: 80%;
+    width: 100%;
     transition: all .3s linear
 }
-.yuan a{
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-}
+/*   */
 #zhongxin{
-    width: 163px;
-    height: 163px;
-    z-index: 10;
+    width: 145px;
+    height: 146px;
+    z-index: 999;
     background: #fff;
     border-radius: 100%;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -13.5%;
-    margin-left: -12%;
+    top: 350px;
+    left: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .neiyuan > div{
-    transition: all .3s linear
+    transition: all .3s linear;
+    
 }
 .neiyuan > div>div{
     z-index: 999;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
 }
 #zhongxin img{
-    width: 77px;
-    height: 77px;
+    width: 74px;
+    height: 74px;
 }
 
 
-#yuan1{
-    width: 353px;
-    height: 504px;
+ #yuan1{
+    width: 456px;
+    height: 319px;
     position: absolute;
-    top: -45%;
-    right: -10%;
-    z-index: 1;
+    right: 425px;
+    top: 120px;
+    transform-origin: 100% 100%;
+    transform: rotate(90deg);
+    z-index: 9;
 }
 #yuan1>div{
     width: 200px;
     height: 100px;
     position: absolute;
-    /* border: 1px solid #000; */
-    top: 15%;
-    right: 40%;
-}
+    top: 18px;
+    right: 240px;
 
+    transform-origin: 100% 100%;
+    transform: rotate(-70deg);
+}
+.yuan_hover_icon1{
+    display: block;
+    width: 42px;
+    height: 39px;
+    background:url("../images/index/icon1.png");
+    background-size: 100% 100%;
+    margin:0 auto;
+    margin-top: 20px;
+
+}
 
 #yuan2{
-    width: 320px;
-    height: 449px;
+    width: 411px;
+    height: 293px;
     position: absolute;
-    top: -36%;
-    left: 56px;
-    /* z-index: 2; */
+    right: 425px;
+    top: 133px;
+    transform-origin: 100% 100%;
+    transform: rotate(45deg);
+    z-index: 8;
 }
+
 #yuan2>div{
+    width: 190px;
+    height: 100px;
+    position: absolute;
+    top: 120px;
+    right: 190px;
+    transform: rotate(285deg)
+}
+.yuan_hover_icon2{
+    display: block;
+    width: 47px;
+    height: 45px;
+    background:url("../images/index/icon2.png");
+    background-size: 100% 100%;
+    margin:0 auto;
+    margin-top: 20px;
+    transform: rotate(25deg)
+}
+
+#yuan3{
+    width: 344px;
+    height: 241px;
+    position: absolute;
+    right: 440px;
+    bottom: 260px;
+    transform-origin: 100% 100%;
+    transform: rotate(0deg);
+    z-index: 7;
+    
+}
+#yuan3>div{
     width: 150px;
     height: 100px;
     position: absolute;
-    /* border: 1px solid #000; */
-    top: 15%;
-    right: 27%;
-    transform: rotate(155deg)
+    top: 90px;
+    right: 150px;
+    transform: rotate(290deg)
 }
-#yuan3{
-    width: 377px;
-    height: 263px;
+.yuan_hover_icon3{
+    display: block;
+    width: 40px;
+    height: 35px;
+    background:url("../images/index/icon3.png");
+    background-size: 100% 100%;
+    margin:0 auto;
+    margin-top: 20px;
+    transform: rotate(60deg)
+}
+
+#yuan4{
+    width: 334px;
+    height: 240px;
     position: absolute;
-    top: 0px;
-    left: 8px;
-    /* z-index: 3; */
+    right: 395px;
+    top: 165px;
+    transform-origin: 100% 100%;
+    transform: rotate(-44deg);
+    z-index: 6;
 }
-#yuan3>div{
+#yuan4>div{
     width: 120px;
     height: 100px;
     position: absolute;
-    /* border: 1px solid #000; */
-    top: 30%;
-    right: 55%;
-    transform: rotate(120deg)
+    top: 90px;
+    right: 140px;
+    transform: rotate(287deg)
 }
-#yuan4{
-    width: 373px;
-    height: 231px;
-    position: absolute;
-    top: 50%;
-    left: 60px;
-    /* z-index: 4; */
+#yuan4>div>a{
+    display: inline-block;
+    transform: rotate(180deg)
 }
-#yuan4>div{
-    width: 100px;
-    height: 135px;
-    position: absolute;
-    /* border: 1px solid #000; */
-    top: 0%;
-    right: 60%;
-    /* transform: rotate(120deg) */
+.yuan_hover_icon4{
+    display: block;
+    width: 35px;
+    height: 35px;
+    background:url("../images/index/icon4.png");
+    background-size: 100% 100%;
+    margin:0 auto;
+    margin-top: 10px;
+    transform: rotate(-230deg)
 }
 #yuan5{
-    width: 224px;
-    height: 320px;
+    width: 293px;
+    height: 205px;
     position: absolute;
-    top: 50%;
-    left: 167px;
-    /* z-index: 5; */
+    right: 405px;
+    bottom: 270px;
+    transform-origin: 100% 100%;
+    transform: rotate(-89deg);
+    z-index: 5;
 }
 #yuan5>div{
-    width: 115px;
-    height: 80px;
+    width: 85px;
+    height: 70px;
     position: absolute;
-    /* border: 1px solid #000; */
-    top: 40%;
-    right: 25%;
-    
+    top: 90px;
+    right:140px;
+    transform: rotate(297deg)
+}
+#yuan5>div>a{
+    display: inline-block;
+    transform: rotate(180deg)
+}
+.yuan_hover_icon5{
+    display: block;
+    width: 27px;
+    height: 31px;
+    background:url("../images/index/icon5.png");
+    background-size: 100% 100%;
+    margin:0 auto;
+    /* margin-top: 20px; */
+    transform: rotate(150deg)
 }
 #yuan6{
-    width: 201px;
-    height: 278px;
+    width: 254px;
+    height: 185px;
     position: absolute;
-    top: 50%;
-    left: 338px;
-    /* z-index: 6; */
+    left: 32px;
+    bottom: 272px;
+    transform-origin: 100% 100%;
+    transform: rotate(-134deg);
+    z-index: 4;
 }
 #yuan6>div{
     width: 80px;
-    height: 100px;
+    height: 50px;
     position: absolute;
-    /* border: 1px solid #000; */
-    top: 30%;
-    right: 48%;
-    transform: rotate(-25deg);
-    
+    top: 80px;
+    right: 120px;
+    transform: rotate(-70deg);
+}
+#yuan6>div>a{
+    display: inline-block;
+    transform: rotate(180deg)
+}
+.yuan_hover_icon6{
+    display: block;
+    width: 27px;
+    height: 31px;
+    background:url("../images/index/icon6.png");
+    background-size: 100% 100%;
+    margin:0 auto;
+    margin-top: 5px;
+    transform: rotate(-145deg)
 }
 #yuan7{
-    width: 259px;
-    height: 184px;
+    width: 243px;
+    height: 171px;
     position: absolute;
-    top: 50%;
-    left: 340px;
-    /* z-index: 7; */
+    left: 40px;
+    bottom: 260px;
+    transform-origin: 100% 100%;
+    transform: rotate(-179deg);
+    z-index: 3;
 }
 #yuan7>div{
     width: 80px;
-    height: 100px;
+    height: 50px;
     position: absolute;
-    /* border: 1px solid #000; */
-    top: 5%;
-    right: 40%;
-    transform: rotate(-45deg)
+    top: 80px;
+    right: 110px;
+    transform: rotate(-62deg);
+}
+#yuan7>div>a{
+    display: inline-block;
+    transform: rotate(180deg)
+}
+.yuan_hover_icon7{
+    display: block;
+    width: 19px;
+    height: 24px;
+    background:url("../images/index/icon7.png");
+    background-size: 100% 100%;
+    margin:0 auto;
+    margin-top: 5px;
+    transform: rotate(-130deg)
 }
 #yuan8{
-    width: 240px;
-    height: 171px;
+    width: 224px;
+    height: 159px;
     position: absolute;
-    top: 18%;
-    left: 310px;
-    /* z-index: 8; */
+    left: 60px;
+    bottom: 257px;
+    transform-origin: 100% 100%;
+    transform: rotate(-225deg);
+    z-index: 10;
 }
 #yuan8>div{
-    width: 75px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     position: absolute;
-    /* border: 1px solid #000; */
-    top: 30%;
-    right: 32%;
-}
+    top: 75px;
+    right: 105px;
+    transform: rotate(-62deg);
+} 
 
 
 
 
 /*============================================进度条 */
+.progress_waice{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.progress_yinying{
+    width: 100%;
+    height: 341px;
+    background: url("../images/index/yinying.png");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 193px;
+    z-index: -1;
+}
 .progress_box{
     width: 1200px;
     margin: 0 auto;
@@ -262,7 +376,7 @@
 }
 .progress{
     width: 100%;
-    margin-top: 90px;
+    margin-top: 92px;
 }
 .progress_title{
     width: 100%;
@@ -304,7 +418,7 @@
 }
 .huankuai_box{
     width: 45px;
-    height: 45px;
+    height: 44px;
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -313,9 +427,10 @@
 }
 .huankuai_btn{
     width: 45px;
-    height: 45px;
+    height: 44px;
     background: url('../images/index/r.png');
     border-radius: 100%;
+    background-size: 100% 100%;
     transition: all .3s linear;
     z-index: 9;
     display: none;
@@ -350,11 +465,26 @@
 }
 
 /* ====================================展示 */
+.zhanshi_waice{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 256px;
+    padding-top: 33px
+}
+.zhanshi_yinying{
+    width: 100%;
+    height: 341px;
+    background: url('../images/index/yinying2.png');
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: -239px;
+}
 .zhanshi_box,.fun_list_box,.project_box,.industry_box,.pattern_box{
     width: 1200px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 140px;
+    /* margin-top: 140px; */
     position: relative;
 }
 .zhanshi_cont{
@@ -369,32 +499,51 @@
 }
 
 /* ===================================功能展示 */
+.fun_yinying{
+    width: 100%;
+    height: 341px;
+    background: url('../images/index/yinying2.png');
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: -174px;
+    z-index: -1;
+}
+.fun_waice{
+    width: 100%;
+    height: auto;
+    margin-top: 239px;
+    position: relative;
+    padding-top: 84px;
+    z-index: -1;
+}
 .fun_list{
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    z-index: 1;
+    padding: 0 114px
 }
 .fun_list .fun_item{
-    width: 240px;
+    width: 168px;
     text-align: left;
     margin-right: 120px;
-    margin-top: 148px;
+    margin-top: 115px;
 }
 .fun_list .fun_item:nth-child(3n){
     margin-right: 0;
 }
 .fun_item_t{
-    font-size:30px;
+    font-size:18px;
     font-family:Microsoft YaHei;
     font-weight:400;
     color:rgba(1,132,214,1);
-    margin-top: 45px;
-    margin-bottom: 30px;
+    margin-top: 38px;
+    margin-bottom: 18px;
     white-space: nowrap;
 }
 .fun_item_c{
-    font-size:20px;
+    font-size:14px;
     color:rgba(40,40,40,1);
 }
 
@@ -464,6 +613,22 @@
 }
 
 /* ================================行业 */
+
+.industry_waice{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.industry_yinying{
+    width: 100%;
+    height: 341px;
+    background: url('../images/index/yinying2.png');
+    background-size: 100% 100%;
+    position: absolute;
+    bottom:-108px;
+}
+
 .industry{
     width: 100%;
     height: 560px;
@@ -540,6 +705,7 @@
 .industry_btn>div.btn_show{
     width: 288px;
     background: url('../images/index/hangye_bg.png') no-repeat;
+    background-size: 100% 100%;
     position: relative;
     left: -50%;
     color: #0184D6;
@@ -558,6 +724,21 @@
 }
 
 /* ================================格局 */
+.pattern_waice{
+    width: 100%;
+    position: relative;
+    height: auto;
+    padding-top: 67px;
+}
+.pattern_yinying{
+    width: 100%;
+    height: 341px;
+    background: url('../images/index/yinying2.png');
+    background-size: 100% 100%;
+    position: absolute;
+    bottom:-70px;
+    z-index: -1;
+}
 
 .pattern{
     width: 100%;
