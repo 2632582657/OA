@@ -337,7 +337,7 @@ $(window).load(function () {
         }
         window.addEventListener("scroll", function (e) {
             var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-            console.log(scrollTop)
+            // console.log(scrollTop)
             if (scrollTop > 900) {
                 $('#leftout1').addClass('animated fadeInLeft');
                 $('#rightout1').addClass('animated fadeInRight dalay-5s');

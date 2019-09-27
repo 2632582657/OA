@@ -65,7 +65,7 @@
     position: absolute;
     bottom: -118px;
     border-radius: 100%;
-    transform: translateX(0px)
+    transform: translateX(-32px)
 }
 .neiyuan{
     width: 100%;
@@ -114,7 +114,7 @@
     top: 120px;
     transform-origin: 100% 100%;
     transform: rotate(90deg);
-    z-index: 9;
+    /* z-index: 9; */
 }
 #yuan1>div{
     width: 200px;
@@ -145,7 +145,7 @@
     top: 133px;
     transform-origin: 100% 100%;
     transform: rotate(45deg);
-    z-index: 8;
+    /* z-index: 8; */
 }
 
 #yuan2>div{
@@ -175,7 +175,7 @@
     bottom: 260px;
     transform-origin: 100% 100%;
     transform: rotate(0deg);
-    z-index: 7;
+    /* z-index: 7; */
     
 }
 #yuan3>div{
@@ -205,7 +205,7 @@
     top: 165px;
     transform-origin: 100% 100%;
     transform: rotate(-44deg);
-    z-index: 6;
+    /* z-index: 6; */
 }
 #yuan4>div{
     width: 120px;
@@ -237,7 +237,7 @@
     bottom: 270px;
     transform-origin: 100% 100%;
     transform: rotate(-89deg);
-    z-index: 5;
+    /* z-index: 5; */
 }
 #yuan5>div{
     width: 85px;
@@ -269,7 +269,7 @@
     bottom: 272px;
     transform-origin: 100% 100%;
     transform: rotate(-134deg);
-    z-index: 4;
+    /* z-index: 4; */
 }
 #yuan6>div{
     width: 80px;
@@ -301,7 +301,7 @@
     bottom: 260px;
     transform-origin: 100% 100%;
     transform: rotate(-179deg);
-    z-index: 3;
+    /* z-index: 3; */
 }
 #yuan7>div{
     width: 80px;
@@ -333,7 +333,7 @@
     bottom: 257px;
     transform-origin: 100% 100%;
     transform: rotate(-225deg);
-    z-index: 10;
+    /* z-index: 10; */
 }
 #yuan8>div{
     width: 50px;
