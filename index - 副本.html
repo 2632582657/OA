@@ -19,12 +19,9 @@
     <!-- <script src="js/swiper3.min.js"></script> -->
     <script src="js/global.js"></script>
     <style>
-        /*.yuan_hover_box:hover+img {*/
-        /*    transform: scale(1.1);*/
-        /*    !* z-index: 9; *!*/
-        /*}*/
-        .neiyuan img:hover{
+        .yuan_hover_box+img:hover {
             transform: scale(1.1);
+            /* z-index: 9; */
         }
     </style>
 </head>
@@ -34,12 +31,12 @@
         <div id="header" class="header">
         </div>
         <div class="banner_box">
-            <div class="banner">
+            <div class="banner" style="z-index: 1">
                 <div class="content_title_box">
-                    <div class="content_title" style="top:263px;right:0;width: 520px;">
-                        <h2 style="font-size: 48px">智能企业工作平台</h2>
+                    <div class="content_title" style="top:263px;right:0;width: 384px;text-align:left;display: flex;flex-direction: column;justify-content: flex-end; align-items: flex-end;">
+                        <h2 style="font-size: 48px;font-weight: 400">智能企业工作平台</h2>
                         <h2
-                            style="font-size: 34px;margin-top: 26px;margin-bottom: 41px;font-weight:300;color:rgba(241,241,241,1);">
+                            style="font-size: 32px;margin-top: 26px;margin-bottom: 41px;font-weight:300;color:rgba(241,241,241,1);position: relative; left: 5px;">
                             一个平台，让办公立马简单</h2>
                         <div class="header_input">
                             <input type="text" class="input_kw">
@@ -47,8 +44,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="yuan">
-                    <div class="neiyuan">
+                <div class="yuan" style="z-index: 1">
+                    <div class="neiyuan" style="z-index: 1">
                         <div id="yuan1">
                             <div class="yuan_hover_box">
                                 <a href="OA.html">智慧OA</a>
@@ -112,8 +109,6 @@
                         <div id="zhongxin">
                             <img src="./images/index/logo_btn.png" alt="">
                         </div>
-                        <div class="assistClass"></div>
-                        <div class="assistClass1"></div>
                         <!-- todo -->
                     </div>
                 </div>
@@ -520,7 +515,7 @@
                         <p class="fun_item_c"> 提高邮箱数据安全性，优化你的邮箱体验</p>
                     </div>
                     <div class="fun_item">
-                        <img src="images/index/fun_icon3.png">
+                        <img src="images/index/fun_icon3.png" width="95px" height="116px">
                         <p class="fun_item_t">随时随地闪速协同</p>
                         <p class="fun_item_c">快速沟通，智能通讯，平台信息化预警</p>
                     </div>
@@ -613,10 +608,10 @@
                         </div>
                     </div>
                     <div class="industry_btn">
-                        <div class="btn_show">地产行业 <i></i></div>
-                        <div class="">制造行业 <i></i></div>
-                        <div class="">商贸行业 <i></i></div>
-                        <div class="">服装行业 <i></i></div>
+                        <div class="btn_show">地产行业</div>
+                        <div class="">制造行业</div>
+                        <div class="">商贸行业</div>
+                        <div class="">服装行业</div>
                     </div>
                 </div>
             </div>
@@ -625,7 +620,7 @@
 
         <div class="pattern_waice">
             <div class="pattern_box" style="margin-top: 120px;margin-bottom: 133px;">
-                <h2 class="index_title">云创办公-提升企业运营“格局”</h2>
+                <h2 class="index_title" style="margin-bottom:110px">云创办公-提升企业运营“格局”</h2>
                 <div class="pattern">
                     <div class="pattern_left">
                         <h2>传统企业系统</h2>

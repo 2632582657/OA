@@ -251,6 +251,20 @@ $(window).load(function () {
     })
 
 
+    $('.assistClass').mouseover(function () {
+        $('#yuan8 img').css('transform', 'scale(1.1)');
+    });
+    $('.assistClass').mouseout(function () {
+        $('#yuan8 img').css('transform', 'scale(1)');
+    });
+    $('.assistClass1').mouseover(function () {
+        $('#yuan8 img').css('transform', 'scale(1.1)');
+    });
+    $('.assistClass1').mouseout(function () {
+        $('#yuan8 img').css('transform', 'scale(1)');
+    });
+
+
 
 
 
@@ -337,7 +351,7 @@ $(window).load(function () {
         }
         window.addEventListener("scroll", function (e) {
             var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-            // console.log(scrollTop)
+            console.log(scrollTop)
             if (scrollTop > 900) {
                 $('#leftout1').addClass('animated fadeInLeft');
                 $('#rightout1').addClass('animated fadeInRight dalay-5s');

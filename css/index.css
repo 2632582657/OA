@@ -6,7 +6,7 @@
     min-width: 1200px;
     height: 883px;
     background: url('../images/index/banner_di.png') no-repeat;
-    background-size: cover;
+    background-size: contain;
     margin: 0 auto;
     margin-bottom: 239px;
 }
@@ -65,7 +65,7 @@
     position: absolute;
     bottom: -118px;
     border-radius: 100%;
-    transform: translateX(-32px)
+    transform: scale(0.9) 
 }
 .neiyuan{
     width: 100%;
@@ -84,8 +84,8 @@
     background: #fff;
     border-radius: 100%;
     position: absolute;
-    top: 350px;
-    left: 180px;
+    top: 330px;
+    left: 192px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +95,7 @@
     
 }
 .neiyuan > div>div{
-    z-index: 999;
+    /*z-index: 999;*/
     text-align: center;
     font-size: 22px;
     font-weight: 400;
@@ -114,7 +114,10 @@
     top: 120px;
     transform-origin: 100% 100%;
     transform: rotate(90deg);
-    /* z-index: 9; */
+    z-index: 11;
+}
+#yuan1>img{
+    z-index: 11;
 }
 #yuan1>div{
     width: 200px;
@@ -122,9 +125,9 @@
     position: absolute;
     top: 18px;
     right: 240px;
-
     transform-origin: 100% 100%;
     transform: rotate(-70deg);
+    z-index: 11;
 }
 .yuan_hover_icon1{
     display: block;
@@ -145,7 +148,10 @@
     top: 133px;
     transform-origin: 100% 100%;
     transform: rotate(45deg);
-    /* z-index: 8; */
+    z-index: 10;
+}
+#yuan2>img{
+    z-index: 10;
 }
 
 #yuan2>div{
@@ -154,7 +160,8 @@
     position: absolute;
     top: 120px;
     right: 190px;
-    transform: rotate(285deg)
+    transform: rotate(285deg);
+    z-index: 10;
 }
 .yuan_hover_icon2{
     display: block;
@@ -175,8 +182,11 @@
     bottom: 260px;
     transform-origin: 100% 100%;
     transform: rotate(0deg);
-    /* z-index: 7; */
+    z-index: 9;
     
+}
+#yuan3>img{
+    z-index: 9;
 }
 #yuan3>div{
     width: 150px;
@@ -184,7 +194,8 @@
     position: absolute;
     top: 90px;
     right: 150px;
-    transform: rotate(290deg)
+    transform: rotate(290deg);
+    z-index: 9;
 }
 .yuan_hover_icon3{
     display: block;
@@ -205,7 +216,7 @@
     top: 165px;
     transform-origin: 100% 100%;
     transform: rotate(-44deg);
-    /* z-index: 6; */
+    z-index: 8;
 }
 #yuan4>div{
     width: 120px;
@@ -213,7 +224,11 @@
     position: absolute;
     top: 90px;
     right: 140px;
-    transform: rotate(287deg)
+    transform: rotate(287deg);
+    z-index: 8;
+}
+#yuan4>img{
+    z-index: 8;
 }
 #yuan4>div>a{
     display: inline-block;
@@ -237,7 +252,10 @@
     bottom: 270px;
     transform-origin: 100% 100%;
     transform: rotate(-89deg);
-    /* z-index: 5; */
+    z-index: 7;
+}
+#yuan5>img{
+    z-index: 7;
 }
 #yuan5>div{
     width: 85px;
@@ -245,7 +263,8 @@
     position: absolute;
     top: 90px;
     right:140px;
-    transform: rotate(297deg)
+    transform: rotate(297deg);
+    z-index: 7;
 }
 #yuan5>div>a{
     display: inline-block;
@@ -269,7 +288,10 @@
     bottom: 272px;
     transform-origin: 100% 100%;
     transform: rotate(-134deg);
-    /* z-index: 4; */
+    z-index: 6;
+}
+#yuan6 >img{
+    z-index: 6;
 }
 #yuan6>div{
     width: 80px;
@@ -278,6 +300,7 @@
     top: 80px;
     right: 120px;
     transform: rotate(-70deg);
+    z-index: 6;
 }
 #yuan6>div>a{
     display: inline-block;
@@ -301,7 +324,10 @@
     bottom: 260px;
     transform-origin: 100% 100%;
     transform: rotate(-179deg);
-    /* z-index: 3; */
+    z-index: 5;
+}
+#yuan7>img{
+    z-index: 5;
 }
 #yuan7>div{
     width: 80px;
@@ -310,6 +336,7 @@
     top: 80px;
     right: 110px;
     transform: rotate(-62deg);
+    z-index: 5;
 }
 #yuan7>div>a{
     display: inline-block;
@@ -333,7 +360,7 @@
     bottom: 257px;
     transform-origin: 100% 100%;
     transform: rotate(-225deg);
-    /* z-index: 10; */
+    z-index: 4;
 }
 #yuan8>div{
     width: 50px;
@@ -342,9 +369,27 @@
     top: 75px;
     right: 105px;
     transform: rotate(-62deg);
-} 
-
-
+    z-index: 4;
+}
+#yuan8>img{
+    z-index: 4;
+}
+.assistClass{
+    width: 185px;
+    height: 83px;
+    position: absolute;
+    top: 320px;
+    right: 114px;
+    z-index:20
+}
+.assistClass1{
+    width: 93px;
+    height: 157px;
+    position: absolute;
+    top: 242px;
+    right: 134px;
+    z-index:20
+}
 
 
 /*============================================进度条 */

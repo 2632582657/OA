@@ -25,10 +25,7 @@
     height: auto;
     position: absolute;
     top: 120px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
+    
 }
 .content_title_box .content_title h2{
     font-size:42px;
