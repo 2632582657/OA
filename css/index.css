@@ -7,7 +7,7 @@
     /* overflow: hidden; */
     height: 883px;
     background: url('../images/index/banner_di1.png') no-repeat;
-    background-size: contain;
+    background-size: 100% auto;
     margin: 0 auto;
     margin-bottom: 239px;
 }

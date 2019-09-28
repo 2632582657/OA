@@ -12,7 +12,7 @@ $(function () {
                 <i class="blue_border"></i>
             </li>
             <li class="">
-                <a href="">产品</a>
+                <a href="javascript:;">产品</a>
                 <ul class="hover_menu">
                     <li><a href="OA.html">OA</a></li>
                     <li><a href="CRM.html">CRM</a></li>
@@ -23,7 +23,7 @@ $(function () {
                 <i class="blue_border"></i>
             </li>
             <li class="">
-                <a href="">解决方案</a>
+                <a href="javascript:;">解决方案</a>
                 <ul class="hover_menu">
                     <li><a href="#">制造业</a></li>
                     <li><a href="#">服装业</a></li>
@@ -33,16 +33,16 @@ $(function () {
                 <i class="blue_border"></i>
             </li>
             <li class="">
-                <a href="">服务与支持</a>
+                <a href="javascript:;">服务与支持</a>
                 <i class="blue_border"></i>
             </li>
             <li class="">
-                <a href="">关于云创办公</a>
+                <a href="javascript:;">关于云创办公</a>
                 <i class="blue_border"></i>
             </li>
         </ul>
         <div class="phone">
-            <a>免费试用</a>
+            <a href="javascript:;">免费试用</a>
             <p><i></i>400-645-6677</p>
         </div>`
     )
