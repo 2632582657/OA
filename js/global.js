@@ -48,104 +48,105 @@ $(function () {
     )
     $('#footer').html(
         `<div class="brand_container">
-        <div class="brand">
-            <h2 class="primary" style="color: #000;margin-bottom: 15px">超过30万家企业使用云创办公</h2>
-            <p>行业深耕，专业解决全流程、全周期办公需求，驱动企业数据化管理进程，实现高效自由的业务模式。</p>
-            <div class="brand_content">
-                <div class="brand_content_img">
-                    <img src="./images/index/brand1.png" alt="">
+            <div class="brand">
+                <h2 class="brand_b_h">超过30万家企业使用云创办公</h2>
+                <p>行业深耕，专业解决全流程、全周期办公需求，驱动企业数据化管理进程，实现高效自由的业务模式。</p>
+                <div class="brand_content">
+                    <div class="brand_content_img">
+                        <img src="./images/index/brand1.png" alt="">
+                    </div>
+                    <div class="brand_content_detail">
+                        <p class="f_c">
+                            一汽大众西部区，全球知名汽车品牌的营销团队。管理人员超过1700多人，如何与伙伴保持紧密快速的业务沟通，是大众西区业务目标达成的关键。
+                        </p>
+                        <h2 class="f_t">一汽大众</h2>
+                        <p class="f_s">云创办公帮助大众年销售额增长120%</p>
+                    </div>
                 </div>
-                <div class="brand_content_detail">
-                    <p class="f_c">
-                        一汽大众西部区，全球知名汽车品牌的营销团队。管理人员超过1700多人，如何与伙伴保持紧密快速的业务沟通，是大众西区业务目标达成的关键。
-                    </p>
-                    <h2 class="f_t">一汽大众</h2>
-                    <p class="f_s">云创办公帮助大众年销售额增长120%</p>
+                <div class="brand_btn">
+                    <ul>
+                        <li>
+                            <img src="./images/index/btn1.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/index/btn2.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/index/btn3.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/index/btn4.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/index/btn5.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/index/btn6.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/index/btn7.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/index/btn8.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/index/btn9.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./images/index/btn10.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div style="margin-top: 297px;position: relative; top: -80px">
+                    <h2 class="brand_b_h">加入云创办公，开启智慧办公新时代</h2>
+                    <p>云创办公全流程高效协作，工作管理更流畅，沟通协作更轻松。</p>
+                    <a class=" tiyan_btn bg_primary" href="#" style="color: #fff;margin-top: 45px">免费试用</a>
                 </div>
             </div>
-            <div class="brand_btn">
-                <ul>
-                    <li>
-                        <img src="./images/index/btn1.png" alt="">
-                    </li>
-                    <li>
-                        <img src="./images/index/btn2.png" alt="">
-                    </li>
-                    <li>
-                        <img src="./images/index/btn3.png" alt="">
-                    </li>
-                    <li>
-                        <img src="./images/index/btn4.png" alt="">
-                    </li>
-                    <li>
-                        <img src="./images/index/btn5.png" alt="">
-                    </li>
-                    <li>
-                        <img src="./images/index/btn6.png" alt="">
-                    </li>
-                    <li>
-                        <img src="./images/index/btn7.png" alt="">
-                    </li>
-                    <li>
-                        <img src="./images/index/btn8.png" alt="">
-                    </li>
-                    <li>
-                        <img src="./images/index/btn9.png" alt="">
-                    </li>
-                    <li>
-                        <img src="./images/index/btn10.png" alt="">
-                    </li>
+            <div class="brand_yinying"></div>
+        </div>
+        <div class="footer">
+            <div class="footer_detail">
+                <ul class="fun">
+                    <li><a href="#">功能</a></li>
+                    <li><a href="#">日程管理</a></li>
+                    <li><a href="#">移动审批</a></li>
+                    <li><a href="#">考勤打卡</a></li>
+                    <li><a href="#">工作汇报</a></li>
+                    <li><a href="#">物资采购</a></li>
+                </ul>
+                <ul class="fun">
+                    <li><a href="#">行业解决方案</a></li>
+                    <li><a href="#">地产业</a></li>
+                    <li><a href="#">服装业</a></li>
+                    <li><a href="#">制造业</a></li>
+                    <li><a href="#">商贸业</a></li>
+                </ul>
+                <ul class="fun">
+                    <li><a href="#">客户案例</a></li>
+                    <li><a href="#">产品定制</a></li>
+                    <li><a href="#">加盟合作</a></li>
+                </ul>
+                <ul class="fun">
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">400-645-667</a></li>
+                </ul>
+                <ul class="fun">
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">微信公众号</a></li>
+                    <li><img src="./images/OA/erweima.png"></li>
                 </ul>
             </div>
-            <div style="margin-top: 60px">
-                <h2 class="primary" style="color: #000;margin-bottom: 15px">超过30万家企业使用云创办公</h2>
-                <p>行业深耕，专业解决全流程、全周期办公需求，驱动企业数据化管理进程，实现高效自由的业务模式。</p>
-                <a class=" tiyan_btn bg_primary" href="#" style="color: #fff;margin-top: 45px">免费体验</a>
+            <div class="record">
+                <div style="margin-right: 24px">
+                    <img src="./images/index/bot-logo.png">
+                </div>
+                <div class="rec">
+                    <p>Copyright &copy; 2018 青岛云创智能集团有限公司 版权所有 </p>
+                    <p>公司地址：山东省青岛市市北区龙城路31号卓越世纪中心4号楼6L</p>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="footer">
-        <div class="footer_detail">
-            <ul class="fun">
-                <li><a href="#">功能</a></li>
-                <li><a href="#">日程管理</a></li>
-                <li><a href="#">移动审批</a></li>
-                <li><a href="#">考勤打卡</a></li>
-                <li><a href="#">工作汇报</a></li>
-                <li><a href="#">物资采购</a></li>
-            </ul>
-            <ul class="fun">
-                <li><a href="#">行业解决方案</a></li>
-                <li><a href="#">地产业</a></li>
-                <li><a href="#">服装业</a></li>
-                <li><a href="#">制造业</a></li>
-                <li><a href="#">商贸业</a></li>
-            </ul>
-            <ul class="fun">
-                <li><a href="#">客户案例</a></li>
-                <li><a href="#">产品定制</a></li>
-                <li><a href="#">加盟合作</a></li>
-            </ul>
-            <ul class="fun">
-                <li><a href="#">联系我们</a></li>
-                <li><a href="#">400-645-667</a></li>
-            </ul>
-            <ul class="fun">
-                <li><a href="#">关于我们</a></li>
-                <li><a href="#">微信公众号</a></li>
-                <li><img src="./images/OA/erweima.png"></li>
-            </ul>
-        </div>
-        <div class="record">
-            <div style="margin-right: 24px">
-                <img src="./images/index/bot-logo.png">
-            </div>
-            <div class="rec">
-                <p>Copyright &copy; 2018 青岛云创智能集团有限公司 版权所有 </p>
-                <p>公司地址：山东省青岛市市北区龙城路31号卓越世纪中心4号楼6L</p>
-            </div>
-        </div>
-    </div>`
+        </div>`
     )
 })
 $(window).load(function () {
