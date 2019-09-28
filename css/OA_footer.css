@@ -14,15 +14,22 @@
     
 }
 .brand_content{
-    height: 364px;
-    width: 100%;
-    background: #fff;
+    height: 350px;
+    /* width: 100%; */
+    /* background: #fff url("../images/index/shadow.png") no-repeat; */
+    /* background-size: 100% 100%; */
+    margin: 0 42px;
     margin-top: 95px;
     display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 12px 10px #e5e8ec;  
 }
 .brand_content_img{
     width: 50%;
     height: 100%;
+    margin-right: 86px;
+    display: flex;
+    align-items: center;
 }
 .brand_content_img img{
     width: 100%;
@@ -30,20 +37,27 @@
 
 }
 .brand_content_detail{
-    width: 50%;
+    width: 336px;
     height: 100%;
-    padding: 45px 65px 0px;
+    padding-top: 72px;
+    margin-right: 200px;
     text-align: left;
 }
-.brand_content_detail .f_c,.brand_content_detail .f_s{
+.brand_content_detail .f_c{
+    line-height:25px;
+    font-size:14px;
+    font-weight:300;
+    color:rgba(53,54,59,1);
+}
+.brand_content_detail .f_s{
     line-height:31px;
-    font-size:19px;
+    font-size:16px;
     font-weight:300;
     color:rgba(53,54,59,1);
 }
 .brand_content_detail .f_t{
-    font-size:21px;
-    font-family:Microsoft YaHei;
+    font-size:18px;
+    font-family:"Microsoft YaHei";
     font-weight:400;
     color:rgba(0,0,0,1);
     line-height:31px;
