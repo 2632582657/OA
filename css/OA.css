@@ -15,7 +15,7 @@
     height: 100%;
     margin: 0 auto;
     position: relative;
-    padding: 0 40px;
+    /* padding: 0 40px; */
     box-sizing: border-box;
 }
 .content_title_box .content_title{

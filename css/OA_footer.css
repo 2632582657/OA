@@ -10,6 +10,7 @@
     width: 1200px;
     text-align: center;
     margin: 0 auto;
+    overflow: hidden;
     
 }
 .brand_content{
@@ -75,6 +76,7 @@
     margin: 0 auto;
     margin-top: 80px;
     padding: 60px 0;
+    overflow: hidden;
 }
 .footer_detail{
     width: 850px;

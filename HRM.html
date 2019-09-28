@@ -17,7 +17,7 @@
     <!-- <script src="js/swiper3.min.js"></script> -->
     <script src="js/global.js"></script>
     <style>
-        .swiper-container{
+        /* .swiper-container{
             width: 100%;
             height: 350px;
             margin-bottom: 60px;
@@ -33,7 +33,7 @@
         .swiper-button-next{
             right: 290px;
             transform: scale(0.5)
-        }
+        } */
     </style>
 </head>
 
@@ -53,20 +53,16 @@
                 </div>
             </div>
         </div>
-        <div class="carousel_bg" style="padding:40px 0 0 0;background: url('#')">
+        <div class="carousel_bg" style="padding:40px 0 0 0;background: url('#');margin-top: 114px">
             <h2 class="primary">一站式人事管理服务平台</h2>
             <p>通过云创HRM助您管理人+事，发挥企业最核心资源-人力的最大价值，改善员工体验，提升人力资源管理效率。</p>
             <a href="#" class="bg_primary tiyan_btn" style="color: #fff">免费体验</a>
-            <div class="swiper-container">
+            <div class="swiper-container" style="margin-bottom: 74px">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="images/HRM/HRM1.png" alt="" width="100%" height="100%"></div>
-                    <div class="swiper-slide"><img src="images/HRM/HRM2.png" alt="" width="100%" height="100%"></div>
-                    <div class="swiper-slide"><img src="images/HRM/HRM3.png" alt="" width="100%" height="100%"></div>
+                    <div class="swiper-slide"><img src="images/OA/OA1.png" alt="" width="100%" height="100%"></div>
+                    <div class="swiper-slide"><img src="images/OA/OA2.png" alt="" width="100%" height="100%"></div>
+                    <div class="swiper-slide"><img src="images/OA/OA3.png" alt="" width="100%" height="100%"></div>
                 </div>
-
-                <!-- 如果需要导航按钮 -->
-                <div class="swiper-button-prev swiper-button-black"></div>
-                <div class="swiper-button-next swiper-button-black"></div>
             </div>
             <h2 class="primary">高效能人力资源管理模式</h2>
             <p>通过员工招聘、员工信息、薪酬福利、培训、绩效管理等应用，帮助企业HR实现全员工全任职周期的一站式人事管理，有效提升HR管理效能、降低人事成本</p>
@@ -76,18 +72,22 @@
                     loop: true, // 循环模式选项
                     autoplay: true,
 
+                    // 如果需要分页器
+                    pagination: {
+                        el: '.swiper-pagination',
+                        type: 'bullets',
+                        progressbarOpposite: true,
+                    },
+
                     // 如果需要前进后退按钮
                     navigation: {
                         nextEl: '.swiper-button-next',
                         prevEl: '.swiper-button-prev',
                     },
-                    slidesPerView: 2,
-                    centeredSlides: true,
-                    slidesOffsetAfter : 500,
                 })
             </script>
         </div>
-        <div class="OA_detail_container" style="margin: 0px">
+        <div class="OA_detail_container" style="margin-top: 215px">
             <div class="OA_detail"
                 style="background: url('./images/index/radius.png') no-repeat 100% 0;background-size: 70% 100%;padding-top: 0;margin-top: 123px;">
                 <div class="OA_card">
