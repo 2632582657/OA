@@ -78,7 +78,15 @@
         margin-bottom: 0px !important;
     }
   }
-
+  @media screen and (max-width:1360px){
+    .yuan{
+        transform: translate(10px,-93px) scale(0.65) !important;
+    }
+    .banner_box{
+        margin-bottom: 0px !important;
+        height: 733px;
+    }
+  }
 .neiyuan{
     width: 100%;
     height: 100%;
@@ -629,14 +637,14 @@
    
 }
  .project_item p,.project_item h2{
-    -webkit-transform-style: preserve-3d;
+    /* -webkit-transform-style: preserve-3d;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
-    -ms-backface-visibility: hidden;
-    filter: blur(0)
+    -ms-backface-visibility: hidden; */
+    /* filter: blur(0) */
  }
 .m_scale{
-   transform: scale(1.2);
+   transform: scale(1.1);
 }
 .project_item:nth-child(2n){
     background: #f9fafe
@@ -755,7 +763,7 @@
     font-family:Microsoft YaHei;
     font-weight:400;
     color:rgba(40,40,40,1);
-    height: 28%;
+    height: 26%;
     display: flex;
     align-items: center;
     justify-content: center;
