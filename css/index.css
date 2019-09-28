@@ -6,8 +6,8 @@
     min-width: 1200px;
     /* overflow: hidden; */
     height: 883px;
-    background: url('../images/index/banner_di1.png') no-repeat;
-    background-size: 100% auto;
+    background: url('../images/index/banner_di1.png') no-repeat center center;
+    background-size: cover;
     margin: 0 auto;
     margin-bottom: 239px;
 }
