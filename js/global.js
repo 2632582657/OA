@@ -42,7 +42,7 @@ $(function () {
             </li>
         </ul>
         <div class="phone">
-            <a href="javascript:;">免费试用</a>
+            <a href="http://www.yunchuangbangong.com/experience.html">免费试用</a>
             <p><i></i>400-645-6677</p>
         </div>`
     )
@@ -100,7 +100,7 @@ $(function () {
                 <div style="margin-top: 297px;position: relative; top: -80px">
                     <h2 class="brand_b_h">加入云创办公，开启智慧办公新时代</h2>
                     <p>云创办公全流程高效协作，工作管理更流畅，沟通协作更轻松。</p>
-                    <a class=" tiyan_btn bg_primary" href="#" style="color: #fff;margin-top: 45px">免费试用</a>
+                    <a href="http://www.yunchuangbangong.com/experience.html" class=" tiyan_btn bg_primary" href="#" style="color: #fff;margin-top: 45px">免费试用</a>
                 </div>
             </div>
             <div class="brand_yinying"></div>
@@ -150,7 +150,6 @@ $(function () {
     )
 })
 $(window).load(function () {
-
     $(".menu_box li:nth-child(2)").hover(
         function () {
             $(this).children(".hover_menu").toggleClass('showmenu')
@@ -169,13 +168,6 @@ $(window).load(function () {
     $('.hover_menu>li').hover(function () {
         $(this).toggleClass("show")
     })
-
-
-
-
-
-
-
     // ================================
     $(".huankuai_box").hover(function () {
         console.log(111)
@@ -204,9 +196,6 @@ $(window).load(function () {
         }
 
     })
-
-
-
     // ======================
 
     $('.project_list .project_item').hover(function () {
@@ -219,22 +208,22 @@ $(window).load(function () {
             {
                 it: "实现数据化管理，制胜地产新时代",
                 ic: "云创办公凭借在地产、互联网以及新兴技术领域的持续创新，以技术推动业务、以知识应对挑战，助力客户打造全方位商业地产IT体系。",
-                url: "javascript:;"
+                url: "http://www.yunchuangbangong.com/experience.html"
             },
             {
                 it: "重塑企业内外连接，打造新一代智慧工厂",
                 ic: "从创新到卓越，云创办公利用综合解决方案，构建信息化IT基础架构，在企业网络、数据中心、网络安全及通信协作方面带来效益提升。",
-                url: "javascript:;"
+                url: "http://www.yunchuangbangong.com/experience.html"
             },
             {
                 it: "大数据驱动智能营销，从现在预见未来",
                 ic: "云创办公全渠道智能服务，将日常所有运营数据进行系统整理、记录、分析，以直观的形式展现给用户各种商业数据，让数据价值清晰可见。",
-                url: "javascript:;"
+                url: "http://www.yunchuangbangong.com/experience.html"
             },
             {
                 it: "线上线下融合再升级，让新手也能快速开发部署",
                 ic: "在云创办公海量数据下实时响应，实现服装数据分析可视化、移动化，动态智能分析，满足服装用户多变的数据分析需求。",
-                url: "javascript:;"
+                url: "http://www.yunchuangbangong.com/experience.html"
             },
         ]
         $(this).addClass('btn_show').siblings().removeClass('btn_show')
@@ -262,19 +251,6 @@ $(window).load(function () {
     $('.assistClass1').mouseout(function () {
         $('#yuan8 img').css('transform', 'scale(1)');
     });
-
-
-
-
-
-
-
-
-
-
-
-
-
     // 底部信息
     $(".brand_btn ul li").hover(function () {
         var title = [
@@ -335,12 +311,6 @@ $(window).load(function () {
         $(".f_t").html(title[$(this).index()].ft)
         $(".f_s").html(title[$(this).index()].fs)
     })
-
-
-
-
-
-
     //动画
     $(function () {
         var now = document.documentElement.scrollTop || document.body.scrollTop;
@@ -350,7 +320,6 @@ $(window).load(function () {
         }
         window.addEventListener("scroll", function (e) {
             var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-            console.log(scrollTop)
             if (scrollTop > 900) {
                 $('#leftout1').addClass('animated fadeInLeft');
                 $('#rightout1').addClass('animated fadeInRight dalay-5s');
@@ -373,10 +342,4 @@ $(window).load(function () {
             }
         });
     });
-
-
-
-
-
-
 })

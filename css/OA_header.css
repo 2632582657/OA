@@ -69,6 +69,10 @@
     opacity: 0.5;
    
 }
+.menu_box>li:first-child{
+    opacity: 0;
+    z-index: -1;
+}
 .menu_box>li:hover{
     opacity: 1;
     font-weight: bold
